@@ -37,7 +37,6 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="textField" destination="Fc2-7d-3cK" id="OuZ-Sd-khX"/>
                         <outlet property="weekTextField" destination="EsH-8f-ekW" id="fDi-H5-zq8"/>
                     </connections>
                 </viewController>
