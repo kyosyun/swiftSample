@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAFB22FB208C6C7F00A1E6AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFB22FA208C6C7F00A1E6AE /* AppDelegate.swift */; };
+		DAFB22FD208C6C7F00A1E6AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFB22FC208C6C7F00A1E6AE /* ViewController.swift */; };
+		DAFB2300208C6C7F00A1E6AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAFB22FE208C6C7F00A1E6AE /* Main.storyboard */; };
+		DAFB2303208C6C7F00A1E6AE /* OnOffButtonSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DAFB2301208C6C7F00A1E6AE /* OnOffButtonSample.xcdatamodeld */; };
+		DAFB2305208C6C7F00A1E6AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAFB2304208C6C7F00A1E6AE /* Assets.xcassets */; };
+		DAFB2308208C6C7F00A1E6AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAFB2306208C6C7F00A1E6AE /* LaunchScreen.storyboard */; };
+		DAFB2313208C6C7F00A1E6AE /* OnOffButtonSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFB2312208C6C7F00A1E6AE /* OnOffButtonSampleTests.swift */; };
+		DAFB231E208C6C7F00A1E6AE /* OnOffButtonSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFB231D208C6C7F00A1E6AE /* OnOffButtonSampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAFB230F208C6C7F00A1E6AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAFB22EF208C6C7F00A1E6AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAFB22F6208C6C7F00A1E6AE;
+			remoteInfo = OnOffButtonSample;
+		};
+		DAFB231A208C6C7F00A1E6AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAFB22EF208C6C7F00A1E6AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAFB22F6208C6C7F00A1E6AE;
+			remoteInfo = OnOffButtonSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAFB22F7208C6C7F00A1E6AE /* OnOffButtonSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnOffButtonSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAFB22FA208C6C7F00A1E6AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAFB22FC208C6C7F00A1E6AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAFB22FF208C6C7F00A1E6AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAFB2302208C6C7F00A1E6AE /* OnOffButtonSample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OnOffButtonSample.xcdatamodel; sourceTree = "<group>"; };
+		DAFB2304208C6C7F00A1E6AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAFB2307208C6C7F00A1E6AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAFB2309208C6C7F00A1E6AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAFB230E208C6C7F00A1E6AE /* OnOffButtonSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnOffButtonSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAFB2312208C6C7F00A1E6AE /* OnOffButtonSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnOffButtonSampleTests.swift; sourceTree = "<group>"; };
+		DAFB2314208C6C7F00A1E6AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAFB2319208C6C7F00A1E6AE /* OnOffButtonSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnOffButtonSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAFB231D208C6C7F00A1E6AE /* OnOffButtonSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnOffButtonSampleUITests.swift; sourceTree = "<group>"; };
+		DAFB231F208C6C7F00A1E6AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAFB22F4208C6C7F00A1E6AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFB230B208C6C7F00A1E6AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFB2316208C6C7F00A1E6AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAFB22EE208C6C7F00A1E6AE = {
+			isa = PBXGroup;
+			children = (
+				DAFB22F9208C6C7F00A1E6AE /* OnOffButtonSample */,
+				DAFB2311208C6C7F00A1E6AE /* OnOffButtonSampleTests */,
+				DAFB231C208C6C7F00A1E6AE /* OnOffButtonSampleUITests */,
+				DAFB22F8208C6C7F00A1E6AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAFB22F8208C6C7F00A1E6AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAFB22F7208C6C7F00A1E6AE /* OnOffButtonSample.app */,
+				DAFB230E208C6C7F00A1E6AE /* OnOffButtonSampleTests.xctest */,
+				DAFB2319208C6C7F00A1E6AE /* OnOffButtonSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAFB22F9208C6C7F00A1E6AE /* OnOffButtonSample */ = {
+			isa = PBXGroup;
+			children = (
+				DAFB22FA208C6C7F00A1E6AE /* AppDelegate.swift */,
+				DAFB22FC208C6C7F00A1E6AE /* ViewController.swift */,
+				DAFB22FE208C6C7F00A1E6AE /* Main.storyboard */,
+				DAFB2304208C6C7F00A1E6AE /* Assets.xcassets */,
+				DAFB2306208C6C7F00A1E6AE /* LaunchScreen.storyboard */,
+				DAFB2309208C6C7F00A1E6AE /* Info.plist */,
+				DAFB2301208C6C7F00A1E6AE /* OnOffButtonSample.xcdatamodeld */,
+			);
+			path = OnOffButtonSample;
+			sourceTree = "<group>";
+		};
+		DAFB2311208C6C7F00A1E6AE /* OnOffButtonSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAFB2312208C6C7F00A1E6AE /* OnOffButtonSampleTests.swift */,
+				DAFB2314208C6C7F00A1E6AE /* Info.plist */,
+			);
+			path = OnOffButtonSampleTests;
+			sourceTree = "<group>";
+		};
+		DAFB231C208C6C7F00A1E6AE /* OnOffButtonSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAFB231D208C6C7F00A1E6AE /* OnOffButtonSampleUITests.swift */,
+				DAFB231F208C6C7F00A1E6AE /* Info.plist */,
+			);
+			path = OnOffButtonSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAFB22F6208C6C7F00A1E6AE /* OnOffButtonSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAFB2322208C6C7F00A1E6AE /* Build configuration list for PBXNativeTarget "OnOffButtonSample" */;
+			buildPhases = (
+				DAFB22F3208C6C7F00A1E6AE /* Sources */,
+				DAFB22F4208C6C7F00A1E6AE /* Frameworks */,
+				DAFB22F5208C6C7F00A1E6AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OnOffButtonSample;
+			productName = OnOffButtonSample;
+			productReference = DAFB22F7208C6C7F00A1E6AE /* OnOffButtonSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAFB230D208C6C7F00A1E6AE /* OnOffButtonSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAFB2325208C6C7F00A1E6AE /* Build configuration list for PBXNativeTarget "OnOffButtonSampleTests" */;
+			buildPhases = (
+				DAFB230A208C6C7F00A1E6AE /* Sources */,
+				DAFB230B208C6C7F00A1E6AE /* Frameworks */,
+				DAFB230C208C6C7F00A1E6AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAFB2310208C6C7F00A1E6AE /* PBXTargetDependency */,
+			);
+			name = OnOffButtonSampleTests;
+			productName = OnOffButtonSampleTests;
+			productReference = DAFB230E208C6C7F00A1E6AE /* OnOffButtonSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAFB2318208C6C7F00A1E6AE /* OnOffButtonSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAFB2328208C6C7F00A1E6AE /* Build configuration list for PBXNativeTarget "OnOffButtonSampleUITests" */;
+			buildPhases = (
+				DAFB2315208C6C7F00A1E6AE /* Sources */,
+				DAFB2316208C6C7F00A1E6AE /* Frameworks */,
+				DAFB2317208C6C7F00A1E6AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAFB231B208C6C7F00A1E6AE /* PBXTargetDependency */,
+			);
+			name = OnOffButtonSampleUITests;
+			productName = OnOffButtonSampleUITests;
+			productReference = DAFB2319208C6C7F00A1E6AE /* OnOffButtonSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAFB22EF208C6C7F00A1E6AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = kyo_s;
+				TargetAttributes = {
+					DAFB22F6208C6C7F00A1E6AE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DAFB230D208C6C7F00A1E6AE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DAFB22F6208C6C7F00A1E6AE;
+					};
+					DAFB2318208C6C7F00A1E6AE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DAFB22F6208C6C7F00A1E6AE;
+					};
+				};
+			};
+			buildConfigurationList = DAFB22F2208C6C7F00A1E6AE /* Build configuration list for PBXProject "OnOffButtonSample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAFB22EE208C6C7F00A1E6AE;
+			productRefGroup = DAFB22F8208C6C7F00A1E6AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAFB22F6208C6C7F00A1E6AE /* OnOffButtonSample */,
+				DAFB230D208C6C7F00A1E6AE /* OnOffButtonSampleTests */,
+				DAFB2318208C6C7F00A1E6AE /* OnOffButtonSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAFB22F5208C6C7F00A1E6AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAFB2308208C6C7F00A1E6AE /* LaunchScreen.storyboard in Resources */,
+				DAFB2305208C6C7F00A1E6AE /* Assets.xcassets in Resources */,
+				DAFB2300208C6C7F00A1E6AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFB230C208C6C7F00A1E6AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFB2317208C6C7F00A1E6AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAFB22F3208C6C7F00A1E6AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAFB22FD208C6C7F00A1E6AE /* ViewController.swift in Sources */,
+				DAFB22FB208C6C7F00A1E6AE /* AppDelegate.swift in Sources */,
+				DAFB2303208C6C7F00A1E6AE /* OnOffButtonSample.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFB230A208C6C7F00A1E6AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAFB2313208C6C7F00A1E6AE /* OnOffButtonSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFB2315208C6C7F00A1E6AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAFB231E208C6C7F00A1E6AE /* OnOffButtonSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAFB2310208C6C7F00A1E6AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAFB22F6208C6C7F00A1E6AE /* OnOffButtonSample */;
+			targetProxy = DAFB230F208C6C7F00A1E6AE /* PBXContainerItemProxy */;
+		};
+		DAFB231B208C6C7F00A1E6AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAFB22F6208C6C7F00A1E6AE /* OnOffButtonSample */;
+			targetProxy = DAFB231A208C6C7F00A1E6AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAFB22FE208C6C7F00A1E6AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAFB22FF208C6C7F00A1E6AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAFB2306208C6C7F00A1E6AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAFB2307208C6C7F00A1E6AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAFB2320208C6C7F00A1E6AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAFB2321208C6C7F00A1E6AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAFB2323208C6C7F00A1E6AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X85VXFU9Y4;
+				INFOPLIST_FILE = OnOffButtonSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kyo-s.OnOffButtonSample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAFB2324208C6C7F00A1E6AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X85VXFU9Y4;
+				INFOPLIST_FILE = OnOffButtonSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kyo-s.OnOffButtonSample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DAFB2326208C6C7F00A1E6AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OnOffButtonSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kyo-s.OnOffButtonSampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnOffButtonSample.app/OnOffButtonSample";
+			};
+			name = Debug;
+		};
+		DAFB2327208C6C7F00A1E6AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OnOffButtonSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kyo-s.OnOffButtonSampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnOffButtonSample.app/OnOffButtonSample";
+			};
+			name = Release;
+		};
+		DAFB2329208C6C7F00A1E6AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OnOffButtonSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kyo-s.OnOffButtonSampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OnOffButtonSample;
+			};
+			name = Debug;
+		};
+		DAFB232A208C6C7F00A1E6AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OnOffButtonSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kyo-s.OnOffButtonSampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OnOffButtonSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAFB22F2208C6C7F00A1E6AE /* Build configuration list for PBXProject "OnOffButtonSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAFB2320208C6C7F00A1E6AE /* Debug */,
+				DAFB2321208C6C7F00A1E6AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAFB2322208C6C7F00A1E6AE /* Build configuration list for PBXNativeTarget "OnOffButtonSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAFB2323208C6C7F00A1E6AE /* Debug */,
+				DAFB2324208C6C7F00A1E6AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAFB2325208C6C7F00A1E6AE /* Build configuration list for PBXNativeTarget "OnOffButtonSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAFB2326208C6C7F00A1E6AE /* Debug */,
+				DAFB2327208C6C7F00A1E6AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAFB2328208C6C7F00A1E6AE /* Build configuration list for PBXNativeTarget "OnOffButtonSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAFB2329208C6C7F00A1E6AE /* Debug */,
+				DAFB232A208C6C7F00A1E6AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DAFB2301208C6C7F00A1E6AE /* OnOffButtonSample.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DAFB2302208C6C7F00A1E6AE /* OnOffButtonSample.xcdatamodel */,
+			);
+			currentVersion = DAFB2302208C6C7F00A1E6AE /* OnOffButtonSample.xcdatamodel */;
+			path = OnOffButtonSample.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DAFB22EF208C6C7F00A1E6AE /* Project object */;
+}
