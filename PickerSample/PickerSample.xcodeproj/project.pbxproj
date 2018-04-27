@@ -14,7 +14,6 @@
 		FE6F91482083401000F36749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE6F91462083401000F36749 /* LaunchScreen.storyboard */; };
 		FE6F91532083401000F36749 /* PickerSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6F91522083401000F36749 /* PickerSampleTests.swift */; };
 		FE6F915E2083401000F36749 /* PickerSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6F915D2083401000F36749 /* PickerSampleUITests.swift */; };
-		FE6F916C2083829E00F36749 /* PickerKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6F916B2083829E00F36749 /* PickerKeyboard.swift */; };
 		FE6F916E20839C0500F36749 /* WeekPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6F916D20839C0500F36749 /* WeekPickerView.swift */; };
 		FE6F91702083B37900F36749 /* WeekTextPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6F916F2083B37900F36749 /* WeekTextPickerView.swift */; };
 		FE6F91722083BA0800F36749 /* TextFieldPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6F91712083BA0800F36749 /* TextFieldPickerView.swift */; };
@@ -52,7 +51,6 @@
 		FE6F91592083401000F36749 /* PickerSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickerSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE6F915D2083401000F36749 /* PickerSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerSampleUITests.swift; sourceTree = "<group>"; };
 		FE6F915F2083401000F36749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE6F916B2083829E00F36749 /* PickerKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerKeyboard.swift; sourceTree = "<group>"; };
 		FE6F916D20839C0500F36749 /* WeekPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekPickerView.swift; sourceTree = "<group>"; };
 		FE6F916F2083B37900F36749 /* WeekTextPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekTextPickerView.swift; sourceTree = "<group>"; };
 		FE6F91712083BA0800F36749 /* TextFieldPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldPickerView.swift; sourceTree = "<group>"; };
@@ -107,17 +105,15 @@
 		FE6F913C2083401000F36749 /* PickerSample */ = {
 			isa = PBXGroup;
 			children = (
+				FE6F91772084C0D700F36749 /* common */,
+				FE6F91762084C09700F36749 /* WeekPicker */,
 				FE6F91732083BA4800F36749 /* extention */,
-				FE6F913D2083401000F36749 /* AppDelegate.swift */,
 				FE6F913F2083401000F36749 /* ViewController.swift */,
 				FE6F91412083401000F36749 /* Main.storyboard */,
+				FE6F913D2083401000F36749 /* AppDelegate.swift */,
 				FE6F91442083401000F36749 /* Assets.xcassets */,
 				FE6F91462083401000F36749 /* LaunchScreen.storyboard */,
 				FE6F91492083401000F36749 /* Info.plist */,
-				FE6F916B2083829E00F36749 /* PickerKeyboard.swift */,
-				FE6F916D20839C0500F36749 /* WeekPickerView.swift */,
-				FE6F916F2083B37900F36749 /* WeekTextPickerView.swift */,
-				FE6F91712083BA0800F36749 /* TextFieldPickerView.swift */,
 			);
 			path = PickerSample;
 			sourceTree = "<group>";
@@ -146,6 +142,23 @@
 				FE6F91742083BA6000F36749 /* UIViewController.swift */,
 			);
 			path = extention;
+			sourceTree = "<group>";
+		};
+		FE6F91762084C09700F36749 /* WeekPicker */ = {
+			isa = PBXGroup;
+			children = (
+				FE6F916D20839C0500F36749 /* WeekPickerView.swift */,
+				FE6F916F2083B37900F36749 /* WeekTextPickerView.swift */,
+			);
+			path = WeekPicker;
+			sourceTree = "<group>";
+		};
+		FE6F91772084C0D700F36749 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				FE6F91712083BA0800F36749 /* TextFieldPickerView.swift */,
+			);
+			path = common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,7 +299,6 @@
 				FE6F91722083BA0800F36749 /* TextFieldPickerView.swift in Sources */,
 				FE6F916E20839C0500F36749 /* WeekPickerView.swift in Sources */,
 				FE6F91402083401000F36749 /* ViewController.swift in Sources */,
-				FE6F916C2083829E00F36749 /* PickerKeyboard.swift in Sources */,
 				FE6F91702083B37900F36749 /* WeekTextPickerView.swift in Sources */,
 				FE6F913E2083401000F36749 /* AppDelegate.swift in Sources */,
 			);
