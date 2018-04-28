@@ -16,6 +16,7 @@
 		DA088CAC20930E0B002D275F /* CollectionViewSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA088CAB20930E0B002D275F /* CollectionViewSampleTests.swift */; };
 		DA088CB720930E0B002D275F /* CollectionViewSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA088CB620930E0B002D275F /* CollectionViewSampleUITests.swift */; };
 		DA088CC520931698002D275F /* TableCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA088CC420931698002D275F /* TableCollectionViewCell.swift */; };
+		DA7C9C4220943FB0006626A4 /* SampleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7C9C4120943FB0006626A4 /* SampleCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		DA088CB620930E0B002D275F /* CollectionViewSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewSampleUITests.swift; sourceTree = "<group>"; };
 		DA088CB820930E0B002D275F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA088CC420931698002D275F /* TableCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCollectionViewCell.swift; sourceTree = "<group>"; };
+		DA7C9C4120943FB0006626A4 /* SampleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				DA088C9F20930E0B002D275F /* LaunchScreen.storyboard */,
 				DA088CA220930E0B002D275F /* Info.plist */,
 				DA088C9A20930E0B002D275F /* CollectionViewSample.xcdatamodeld */,
+				DA7C9C4120943FB0006626A4 /* SampleCollectionViewCell.swift */,
 			);
 			path = CollectionViewSample;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				DA088C9620930E0B002D275F /* ViewController.swift in Sources */,
 				DA088C9420930E0B002D275F /* AppDelegate.swift in Sources */,
 				DA088CC520931698002D275F /* TableCollectionViewCell.swift in Sources */,
+				DA7C9C4220943FB0006626A4 /* SampleCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
