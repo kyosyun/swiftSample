@@ -30,7 +30,6 @@ class ViewController: UIViewController {
         let okAction = UIAlertAction(title: "actiontitle", style: .default, handler: nil)
         alertController.addAction(okAction)
         present(alertController, animated: true, completion: nil)
-        print("OK")
     }
 
 }
