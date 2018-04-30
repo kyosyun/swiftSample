@@ -26,20 +26,32 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
     }
 
     @IBAction func sampleButtonTapped(_ sender: UIButton) {
-        if UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.photoLibrary) {
-
-            let picker = UIImagePickerController()
-            picker.modalPresentationStyle = UIModalPresentationStyle.popover
-            picker.delegate = self // UINavigationControllerDelegate と　UIImagePickerControllerDelegateを実装する
-            picker.sourceType = UIImagePickerControllerSourceType.photoLibrary
-
-            if let popover = picker.popoverPresentationController {
-                popover.sourceView = self.view
-                popover.sourceRect = loadImageButton.frame // ポップオーバーの表示元となるエリア
-                popover.permittedArrowDirections = UIPopoverArrowDirection.any
-            }
-            self.present(picker, animated: true, completion: nil)
+        if UIImagePickerController.isSourceTypeAvailable(.photoLibrary) {
+            // 写真を選ぶビュー
+            let pickerView = UIImagePickerController()
+            // 写真の選択元をカメラロールにする
+            // 「.camera」にすればカメラを起動できる
+            pickerView.sourceType = .photoLibrary
+            // デリゲート
+            pickerView.delegate = self
+            // ビューに表示
+            self.present(pickerView, animated: true)
         }
+
+//        if UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.photoLibrary) {
+//
+//            let picker = UIImagePickerController()
+//            picker.modalPresentationStyle = UIModalPresentationStyle.popover
+//            picker.delegate = self // UINavigationControllerDelegate と　UIImagePickerControllerDelegateを実装する
+//            picker.sourceType = UIImagePickerControllerSourceType.photoLibrary
+//
+//            if let popover = picker.popoverPresentationController {
+//                popover.sourceView = self.view
+//                popover.sourceRect = loadImageButton.frame // ポップオーバーの表示元となるエリア
+//                popover.permittedArrowDirections = UIPopoverArrowDirection.any
+//            }
+//            self.present(picker, animated: true, completion: nil)
+//        }
     }
 
     @IBAction func sampleButton2Tapped(_ sender: UIButton) {
