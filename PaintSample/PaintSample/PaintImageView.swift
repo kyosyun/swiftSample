@@ -8,6 +8,8 @@
 
 import UIKit
 
+
+
 class PaintImageView: UIImageView {
 
     /*
@@ -51,19 +53,57 @@ class PaintImageView: UIImageView {
         initialize()
     }
 
+    //タップが始まったときの動作
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         if let touch = touches.first {
             tapedPoint = touch.location(in: self)
+            addMark(to: tapedPoint)
         }
     }
 
+    //ドラッグ中の動作
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         if let touch = touches.first {
             let endPoint = touch.location(in: self)
-            draw(endPoint: endPoint)
+            //draw(endPoint: endPoint)
+            addMark(to: endPoint)
         }
     }
 
+    //タップが終わったときの動作
+    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        //clear()
+    }
+
+    func addMark(to: CGPoint) {
+        let text = "A"
+        let font = UIFont.boldSystemFont(ofSize: 20)
+
+        let rect = CGRect(x: 0, y: 0, width: self.frame.size.width, height: self.frame.size.height)
+
+        // Context 開始
+        UIGraphicsBeginImageContext((self.frame.size))
+        UIGraphicsBeginImageContextWithOptions((self.frame.size), false, 0)
+        image?.draw(in: rect)
+
+        let textStyle = NSMutableParagraphStyle.default.mutableCopy() as! NSMutableParagraphStyle
+
+        let textFontAttributes = [
+            NSAttributedStringKey.font: font,
+            NSAttributedStringKey.foregroundColor: UIColor.yellow,
+            NSAttributedStringKey.paragraphStyle: textStyle
+        ]
+
+
+        text.draw(at: tapedPoint, withAttributes: textFontAttributes)
+
+        self.image = UIGraphicsGetImageFromCurrentImageContext()
+
+        UIGraphicsEndImageContext()
+
+    }
+
+    //初期化のためのコード
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         if keyPath == "image" {
             originalImage = change![NSKeyValueChangeKey(rawValue: keyPath!)] as! UIImage
@@ -92,6 +132,7 @@ class PaintImageView: UIImageView {
         UIGraphicsEndImageContext()
 
         tapedPoint = endPoint
+
     }
 
     func clear() {
