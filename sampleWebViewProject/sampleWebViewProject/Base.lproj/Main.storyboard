@@ -26,17 +26,53 @@
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2os-iH-rbM">
+                                <rect key="frame" x="125" y="318.5" width="124" height="30"/>
+                                <state key="normal" title="test() (引数無し）"/>
+                                <connections>
+                                    <action selector="btnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e59-bv-mbM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UtN-UR-OcV">
+                                <rect key="frame" x="107" y="368.5" width="161" height="30"/>
+                                <state key="normal" title="hello(&quot; &quot;) （引数あり） "/>
+                                <connections>
+                                    <action selector="hello:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bvn-ik-U47"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bNx-2b-EW6">
+                                <rect key="frame" x="62" y="368" width="25" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wZp-V7-GbN">
+                                <rect key="frame" x="53.5" y="418.5" width="268" height="30"/>
+                                <state key="normal" title="setImage(ローカルの画像を読み込み）"/>
+                                <connections>
+                                    <action selector="setImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uym-el-wre"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="UtN-UR-OcV" firstAttribute="leading" secondItem="bNx-2b-EW6" secondAttribute="trailing" constant="20" id="3Xc-Rm-bgV"/>
+                            <constraint firstItem="UtN-UR-OcV" firstAttribute="top" secondItem="2os-iH-rbM" secondAttribute="bottom" constant="20" id="79k-E8-OZu"/>
+                            <constraint firstItem="2os-iH-rbM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7mE-ed-IAA"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="OWR-1i-156" secondAttribute="bottom" id="FYo-tr-4Hy"/>
+                            <constraint firstItem="2os-iH-rbM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Qls-TO-XcX"/>
+                            <constraint firstItem="bNx-2b-EW6" firstAttribute="top" secondItem="UtN-UR-OcV" secondAttribute="top" id="TQr-5D-Dhg"/>
+                            <constraint firstItem="wZp-V7-GbN" firstAttribute="top" secondItem="UtN-UR-OcV" secondAttribute="bottom" constant="20" id="cD9-Y1-sVK"/>
+                            <constraint firstItem="wZp-V7-GbN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eZH-jM-VBh"/>
                             <constraint firstItem="OWR-1i-156" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="idn-yK-z1D"/>
+                            <constraint firstItem="UtN-UR-OcV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lKm-pc-zg4"/>
                             <constraint firstItem="OWR-1i-156" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="lcf-7Y-WHx"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OWR-1i-156" secondAttribute="trailing" id="uJ8-04-cSV"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="nameTextField" destination="bNx-2b-EW6" id="0xi-Sm-6Hl"/>
                         <outlet property="webView" destination="OWR-1i-156" id="abg-z2-ctW"/>
                     </connections>
                 </viewController>

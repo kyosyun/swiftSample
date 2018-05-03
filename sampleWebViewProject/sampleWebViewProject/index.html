@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+            <title>Insert title here</title>
+    </head>
+    <script type="text/javascript">
+        function test(){
+            $("#test").text("test")
+        }
+        function hello(name){
+            $("#test").text("hello! " + name)
+        }
+        function setImage(imagePath){
+            $("#samplePic").attr("src", imagePath)
+        }
+    </script>
+    <script type="text/javascript" src="./jQuery.js"></script>
+
+    <body>
+        <div id="test">
+        </div>
+        <img id="samplePic" alt="sample" title="sample">
+
+    </body>
+</html>
