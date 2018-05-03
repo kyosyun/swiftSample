@@ -33,7 +33,6 @@ class PaintImageView: UIImageView {
             self.addObserver(self, forKeyPath: "image", options: .new, context: nil)
             return
         }
-
         self.originalImage = image
 
     }
@@ -63,10 +62,11 @@ class PaintImageView: UIImageView {
 
     //ドラッグ中の動作
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.image = self.originalImage
         if let touch = touches.first {
             let endPoint = touch.location(in: self)
-            //draw(endPoint: endPoint)
-            addMark(to: endPoint)
+            draw(endPoint: endPoint)
+            //addMark(to: endPoint)
         }
     }
 
@@ -76,8 +76,8 @@ class PaintImageView: UIImageView {
     }
 
     func addMark(to: CGPoint) {
-        let text = "A"
-        let font = UIFont.boldSystemFont(ofSize: 20)
+        let text = "↑"
+        let font = UIFont.boldSystemFont(ofSize: 50)
 
         let rect = CGRect(x: 0, y: 0, width: self.frame.size.width, height: self.frame.size.height)
 
@@ -94,8 +94,7 @@ class PaintImageView: UIImageView {
             NSAttributedStringKey.paragraphStyle: textStyle
         ]
 
-
-        text.draw(at: tapedPoint, withAttributes: textFontAttributes)
+        text.draw(at: to, withAttributes: textFontAttributes)
 
         self.image = UIGraphicsGetImageFromCurrentImageContext()
 
