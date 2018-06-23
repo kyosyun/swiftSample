@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ViewController.createData():ViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.readData(_:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "realm.objects(Dog.self)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in ViewController.createData():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "newDog.id">
+            </PersistentString>
+            <PersistentString
+               value = "(oldDog?.id ?? 0) + 1">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
