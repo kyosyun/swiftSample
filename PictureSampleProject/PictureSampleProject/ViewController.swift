@@ -55,15 +55,18 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
     }
 
     @IBAction func sampleButton2Tapped(_ sender: UIButton) {
-        if UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.camera) {
-
-            let picker = UIImagePickerController()
-            picker.modalPresentationStyle = UIModalPresentationStyle.fullScreen
-            picker.delegate = self // UINavigationControllerDelegate と　UIImagePickerControllerDelegateを実装する
-            picker.sourceType = UIImagePickerControllerSourceType.camera
-
-            self.present(picker, animated: true, completion: nil)
+        if UIImagePickerController.isSourceTypeAvailable(.camera) {
+            // 写真を選ぶビュー
+            let pickerView = UIImagePickerController()
+            // 写真の選択元をカメラロールにする
+            // 「.camera」にすればカメラを起動できる
+            pickerView.sourceType = .camera
+            // デリゲート
+            pickerView.delegate = self
+            // ビューに表示
+            self.present(pickerView, animated: true)
         }
+
     }
 }
 
