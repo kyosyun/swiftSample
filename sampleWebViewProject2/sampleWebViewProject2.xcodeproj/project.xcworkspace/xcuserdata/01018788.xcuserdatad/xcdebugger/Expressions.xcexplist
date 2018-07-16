@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ViewController.saveImage(_:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Bundle.main.bundleURL">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.setImage(_:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "saveUrl?.absoluteString">
+            </PersistentString>
+            <PersistentString
+               value = "FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0].appendingPathComponent(imageName).path">
+            </PersistentString>
+            <PersistentString
+               value = "saveUrl.path">
+            </PersistentString>
+            <PersistentString
+               value = "FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]">
+            </PersistentString>
+            <PersistentString
+               value = "saveUrl.absolutePath">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
