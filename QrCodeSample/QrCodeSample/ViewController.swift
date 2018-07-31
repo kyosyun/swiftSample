@@ -88,6 +88,73 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
 
                 break
             }
+
+            guard let values = metadata.stringValue?.split(separator: "/") else {
+                return
+            }
+
+            //軽自動車の場合 (QRが3つ）
+            let count = values.count
+
+            switch count {
+            case 6: //QR1
+                //1. システムID
+                //2. バージョン番号
+                //3. 輸出整理番号
+                //4. 車両番号
+                //5. 車台番号
+                //6. 型式指定番号 + 類別区分番号
+
+                break
+            case 7: //QR2
+                //1. システムID
+                //2. バージョン番号
+                //3. 車両番号
+                //4. 標板の枚数・大きさ
+                //5. 車台番号
+                //6. 原動機かた
+                //7. 帳票種別
+                break
+            case 19: //QR13
+                //1. システムID
+                //2. ナージョン番号
+                //3. 車台番号
+                //4. 型式指定番号 + 類別区分番号
+                //5. 有効期間満了日 (YYMMDD)
+                //6. 初年度検査年月(YYMM） 未設定：9999 / 月が未設定 YY99
+                //7. 型式
+                //8. 軸重（前前）ex 0123 -> 1230kg
+                //9. 軸重（前後） 不要
+                //10. 軸重（後前）　不要
+                //11. 軸重（後後）ex 0123 -> 1230kg
+
+                break
+            default:
+                break
+            }
+
+            //自動車の場合(QR 5種？）
+            switch count {
+            case 7: // QR1 QR3 不要
+
+                if values[0] == "2" { //QR1の場合
+                    break
+                }
+                // QR3の場合
+
+            case 6: // QR2 QR8 不要？
+                break
+            case 8: // QR4
+                break
+            case 2: // QR5
+                break
+            case 5: // QR6
+                break
+            default:
+                break
+            }
+
+
         }
     }
 }
