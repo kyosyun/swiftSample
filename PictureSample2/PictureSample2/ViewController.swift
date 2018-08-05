@@ -17,6 +17,7 @@ class ViewController: UIViewController ,AVCapturePhotoCaptureDelegate {
     var stillImageOutput: AVCapturePhotoOutput?
     var previewLayer: AVCaptureVideoPreviewLayer?
 
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -29,8 +30,7 @@ class ViewController: UIViewController ,AVCapturePhotoCaptureDelegate {
         settingsForMonitoring.flashMode = .auto
         settingsForMonitoring.isAutoStillImageStabilizationEnabled = true
         settingsForMonitoring.isHighResolutionPhotoEnabled = false
-        // シャッターを切る
-        stillImageOutput?.capturePhoto(with: settingsForMonitoring, delegate: self)
+        self.stillImageOutput?.capturePhoto(with: settingsForMonitoring, delegate: self)
     }
 
     override func viewDidAppear(_ animated: Bool) {
@@ -77,9 +77,24 @@ class ViewController: UIViewController ,AVCapturePhotoCaptureDelegate {
             // JPEG形式で画像データを取得
             let photoData = AVCapturePhotoOutput.jpegPhotoDataRepresentation(forJPEGSampleBuffer: photoSampleBuffer, previewPhotoSampleBuffer: previewPhotoSampleBuffer)
             let image = UIImage(data: photoData!)
+            self.captureSesssion.stopRunning()
 
-            // フォトライブラリに保存
-            UIImageWriteToSavedPhotosAlbum(image!, nil, nil, nil)
+            let alert = UIAlertController(title: "確認", message: "この写真でよろしいですか", preferredStyle: .alert)
+            let okAction = UIAlertAction(title: "決定して次の写真へ進む", style: .default) { _ in
+                // フォトライブラリに保存
+                UIImageWriteToSavedPhotosAlbum(image!, nil, nil, nil)
+                self.captureSesssion.startRunning()
+            }
+            let ageinAction = UIAlertAction(title: "撮影し直す", style: .default) { _ in
+                self.captureSesssion.startRunning()
+            }
+            alert.addAction(okAction)
+            alert.addAction(ageinAction)
+            self.present(alert, animated: true, completion: nil)
+
         }
     }
 }
+
+
+
