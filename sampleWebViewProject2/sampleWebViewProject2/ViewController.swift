@@ -17,8 +17,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         //ローカルのHTMLの読み込み
         let html = try? String(contentsOfFile: Bundle.main.path(forResource: "index", ofType: "html")!)
-        let baseUrl = Bundle.main.bundleURL.appendingPathComponent("assessmentPicture.png")
-        webView.loadHTMLString(html!, baseURL: baseUrl)
+        webView.loadHTMLString(html!, baseURL: Bundle.main.bundleURL)
 
         super.viewDidLoad()
     }
