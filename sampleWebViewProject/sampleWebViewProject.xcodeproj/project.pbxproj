@@ -17,7 +17,7 @@
 		DA391242209AE0790074D750 /* sampleWebViewProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA391241209AE0790074D750 /* sampleWebViewProjectUITests.swift */; };
 		DA391250209AEB4D0074D750 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = DA39124F209AEB4D0074D750 /* index.html */; };
 		DA391252209B44740074D750 /* jQuery.js in Resources */ = {isa = PBXBuildFile; fileRef = DA391251209B44740074D750 /* jQuery.js */; };
-		DADB77F7209B458100A94FFA /* SamplePic.png in Resources */ = {isa = PBXBuildFile; fileRef = DADB77F6209B458100A94FFA /* SamplePic.png */; };
+		DA430A36212B0FEA00423196 /* SamplePic.png in Resources */ = {isa = PBXBuildFile; fileRef = DA430A35212B0FEA00423196 /* SamplePic.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +54,7 @@
 		DA391243209AE0790074D750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA39124F209AEB4D0074D750 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		DA391251209B44740074D750 /* jQuery.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = jQuery.js; sourceTree = "<group>"; };
-		DADB77F6209B458100A94FFA /* SamplePic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SamplePic.png; sourceTree = "<group>"; };
+		DA430A35212B0FEA00423196 /* SamplePic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SamplePic.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +114,7 @@
 				DA391225209AE0790074D750 /* sampleWebViewProject.xcdatamodeld */,
 				DA39124F209AEB4D0074D750 /* index.html */,
 				DA391251209B44740074D750 /* jQuery.js */,
-				DADB77F6209B458100A94FFA /* SamplePic.png */,
+				DA430A35212B0FEA00423196 /* SamplePic.png */,
 			);
 			path = sampleWebViewProject;
 			sourceTree = "<group>";
@@ -246,10 +246,10 @@
 			files = (
 				DA39122C209AE0790074D750 /* LaunchScreen.storyboard in Resources */,
 				DA391252209B44740074D750 /* jQuery.js in Resources */,
-				DADB77F7209B458100A94FFA /* SamplePic.png in Resources */,
 				DA391250209AEB4D0074D750 /* index.html in Resources */,
 				DA391229209AE0790074D750 /* Assets.xcassets in Resources */,
 				DA391224209AE0790074D750 /* Main.storyboard in Resources */,
+				DA430A36212B0FEA00423196 /* SamplePic.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
