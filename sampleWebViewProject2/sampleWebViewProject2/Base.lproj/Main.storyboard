@@ -26,32 +26,8 @@
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5F0-uC-zMm">
-                                <rect key="frame" x="146.5" y="318.5" width="83" height="30"/>
-                                <state key="normal" title="Save Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wU5-HC-ZzU">
-                                <rect key="frame" x="147.5" y="368.5" width="81" height="30"/>
-                                <state key="normal" title="change text"/>
-                                <connections>
-                                    <action selector="changeText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lK5-Od-y3L"/>
-                                </connections>
-                            </button>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o2S-S5-LLb">
-                                <rect key="frame" x="20" y="368" width="107.5" height="30"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yTT-l4-Dfk">
-                                <rect key="frame" x="150" y="418.5" width="75" height="30"/>
-                                <state key="normal" title="SaveImage"/>
-                                <connections>
-                                    <action selector="saveImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SUU-yJ-4UK"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KSP-K9-wu3">
-                                <rect key="frame" x="155" y="468.5" width="64" height="30"/>
+                                <rect key="frame" x="155" y="318.5" width="64" height="30"/>
                                 <state key="normal" title="setImage"/>
                                 <connections>
                                     <action selector="setImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EaR-7a-zfh"/>
@@ -61,25 +37,15 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="9bb-to-xAJ" secondAttribute="bottom" id="1hc-oA-cm8"/>
-                            <constraint firstItem="5F0-uC-zMm" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="8CT-Oi-qhW"/>
-                            <constraint firstItem="5F0-uC-zMm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EAO-BC-iNw"/>
-                            <constraint firstItem="yTT-l4-Dfk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="F7r-c3-LwK"/>
-                            <constraint firstItem="o2S-S5-LLb" firstAttribute="centerY" secondItem="wU5-HC-ZzU" secondAttribute="centerY" id="I3m-11-dbP"/>
-                            <constraint firstItem="wU5-HC-ZzU" firstAttribute="top" secondItem="5F0-uC-zMm" secondAttribute="bottom" constant="20" id="MCx-Kd-rvs"/>
+                            <constraint firstItem="KSP-K9-wu3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="2SM-ae-lF3"/>
                             <constraint firstItem="9bb-to-xAJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Qnr-og-jfV"/>
-                            <constraint firstItem="wU5-HC-ZzU" firstAttribute="leading" secondItem="o2S-S5-LLb" secondAttribute="trailing" constant="20" id="Qqq-hU-aHw"/>
-                            <constraint firstItem="o2S-S5-LLb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Ujx-Vu-6nZ"/>
                             <constraint firstItem="9bb-to-xAJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="V5e-IF-Jjh"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9bb-to-xAJ" secondAttribute="trailing" id="XkC-97-EdI"/>
-                            <constraint firstItem="wU5-HC-ZzU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="b3W-RY-hIX"/>
-                            <constraint firstItem="KSP-K9-wu3" firstAttribute="top" secondItem="yTT-l4-Dfk" secondAttribute="bottom" constant="20" id="dWc-Bh-Rw8"/>
-                            <constraint firstItem="yTT-l4-Dfk" firstAttribute="top" secondItem="wU5-HC-ZzU" secondAttribute="bottom" constant="20" id="oZw-QX-tSm"/>
                             <constraint firstItem="KSP-K9-wu3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rd4-HR-D5M"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="nameTextField" destination="o2S-S5-LLb" id="nc6-gr-2Lv"/>
                         <outlet property="webView" destination="9bb-to-xAJ" id="HgJ-h0-DJr"/>
                     </connections>
                 </viewController>
