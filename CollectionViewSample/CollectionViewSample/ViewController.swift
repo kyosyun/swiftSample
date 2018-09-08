@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-
+    private let refreshControl = UIRefreshControl()
 
     @IBOutlet weak var collectionView: UICollectionView!
     override func viewDidLoad() {
@@ -18,13 +18,26 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         collectionView.dataSource = self
         collectionView.delegate = self
+
+        // MARK: -- リロードを行う
+        collectionView.refreshControl = refreshControl
+        refreshControl.addTarget(self, action: #selector(ViewController.refresh(sender:)), for: .valueChanged)
     }
+
+    // MARK: -- リロード処理の中身
+    @objc func refresh(sender: UIRefreshControl) {
+        // ここに通信処理などデータフェッチの処理を書く
+        // 処理が終わった際には、refreshControl.endRefreshing()を呼んでリロードをなくす
+        refreshControl.endRefreshing()
+    }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 
+    // MARK: -- アラートの表示を行う。
     @IBAction func alsertButtonTapped(_ sender: UIButton) {
         let alertController = UIAlertController(title: "title", message: "message", preferredStyle: .alert)
         let okAction = UIAlertAction(title: "actiontitle", style: .default, handler: nil)
