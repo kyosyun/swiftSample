@@ -1,0 +1,12 @@
+PODS:
+  - Growthbeat (2.0.5)
+
+DEPENDENCIES:
+  - Growthbeat
+
+SPEC CHECKSUMS:
+  Growthbeat: cfedcbfadf478edf99f21d34f821ab223c6c8e4e
+
+PODFILE CHECKSUM: 93d347583dc7ec6bcaecdf77195c3eb1cd5d035d
+
+COCOAPODS: 1.4.0
