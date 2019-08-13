@@ -1,6 +1,0 @@
-framework module Pods_realmSwiftSampleTests {
-  umbrella header "Pods-realmSwiftSampleTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
