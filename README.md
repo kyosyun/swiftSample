@@ -10,4 +10,5 @@
 |FirebaseDynamicLinksSample|DynamicLinkを利用してみる| - DynamicLinkのチュートリアル実装<br> - DynamicLinkのURLをアプリで読み込み|
 |GrowthPushSample|GrowthPushを利用してみる| - GrowthPushのSDK導入|
 |RealmSample|Realmへの保存・ロード| - realmへの保存<br> - realmからの読み込み<br> - idを自動生成|
+|mkMapViewSample|MKMapViewの利用| - 地図の表示<br> - 現在地の表示<br> - 現在地を地図の中心にする<br> - 住所を入力して該当箇所を表示・ピンを指す<br> - ロングタップの検出|
 |||||

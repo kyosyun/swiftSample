@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="mkMapViewSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="XOe-25-jW7">
+                                <rect key="frame" x="0.0" y="20" width="375" height="447"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Lh2-u9-Hm7" appends="YES" id="Y0f-ZR-iZH"/>
+                                </connections>
+                            </mapView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LongTapStatus: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vo2-GJ-Mk3">
+                                <rect key="frame" x="10" y="477" width="124" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tapLon: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J8I-xT-khR">
+                                <rect key="frame" x="10" y="508" width="62" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tapLat: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P3n-h8-QMC">
+                                <rect key="frame" x="10" y="539" width="58" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="address: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OfT-Pu-ZS9">
+                                <rect key="frame" x="10" y="570" width="71" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rWL-XN-8wi">
+                                <rect key="frame" x="91" y="565.5" width="216" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ABW-ed-5aA">
+                                <rect key="frame" x="317" y="565.5" width="48" height="30"/>
+                                <state key="normal" title="Search"/>
+                                <connections>
+                                    <action selector="search:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B0a-sb-p7k"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="XOe-25-jW7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="47J-46-cPp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="XOe-25-jW7" secondAttribute="bottom" constant="200" id="5ME-xD-nLh"/>
+                            <constraint firstItem="ABW-ed-5aA" firstAttribute="leading" secondItem="rWL-XN-8wi" secondAttribute="trailing" constant="10" id="Eqx-HE-itr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ABW-ed-5aA" secondAttribute="trailing" constant="10" id="Ge2-M6-f4f"/>
+                            <constraint firstItem="P3n-h8-QMC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="KRz-KZ-f1g"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XOe-25-jW7" secondAttribute="trailing" id="PZA-qc-oKv"/>
+                            <constraint firstItem="J8I-xT-khR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Q4s-fc-504"/>
+                            <constraint firstItem="OfT-Pu-ZS9" firstAttribute="top" secondItem="P3n-h8-QMC" secondAttribute="bottom" constant="10" id="VnL-Y3-44M"/>
+                            <constraint firstItem="Vo2-GJ-Mk3" firstAttribute="top" secondItem="XOe-25-jW7" secondAttribute="bottom" constant="10" id="elf-kM-u6t"/>
+                            <constraint firstItem="rWL-XN-8wi" firstAttribute="centerY" secondItem="OfT-Pu-ZS9" secondAttribute="centerY" id="gAR-ht-b3W"/>
+                            <constraint firstItem="J8I-xT-khR" firstAttribute="top" secondItem="Vo2-GJ-Mk3" secondAttribute="bottom" constant="10" id="ilk-vL-FMj"/>
+                            <constraint firstItem="OfT-Pu-ZS9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="jEp-Xb-BIb"/>
+                            <constraint firstItem="XOe-25-jW7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="m0L-Bx-CBu"/>
+                            <constraint firstItem="P3n-h8-QMC" firstAttribute="top" secondItem="J8I-xT-khR" secondAttribute="bottom" constant="10" id="oBl-zH-lso"/>
+                            <constraint firstItem="Vo2-GJ-Mk3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="olT-Ku-c83"/>
+                            <constraint firstItem="ABW-ed-5aA" firstAttribute="centerY" secondItem="rWL-XN-8wi" secondAttribute="centerY" id="tpA-Kg-6Ys"/>
+                            <constraint firstItem="rWL-XN-8wi" firstAttribute="leading" secondItem="OfT-Pu-ZS9" secondAttribute="trailing" constant="10" id="uLN-hP-CZ7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="address" destination="rWL-XN-8wi" id="OB4-IH-7ZW"/>
+                        <outlet property="longPressGetRec" destination="Lh2-u9-Hm7" id="TC6-2G-PUR"/>
+                        <outlet property="longTapStatus" destination="Vo2-GJ-Mk3" id="6ek-XR-86t"/>
+                        <outlet property="mapView" destination="XOe-25-jW7" id="Ohj-Yz-Fyg"/>
+                        <outlet property="tapLat" destination="P3n-h8-QMC" id="Qcs-I8-qPm"/>
+                        <outlet property="tapLog" destination="J8I-xT-khR" id="9dK-rr-e1D"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="Lh2-u9-Hm7">
+                    <connections>
+                        <action selector="mapViewDidLongPress:" destination="BYZ-38-t0r" id="u09-Em-YqD"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
+        </scene>
+    </scenes>
+</document>
