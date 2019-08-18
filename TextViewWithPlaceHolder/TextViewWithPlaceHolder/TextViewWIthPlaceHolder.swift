@@ -10,17 +10,25 @@ import Foundation
 import UIKit
 
 @IBDesignable class TextViewWithPlaceHolder: UITextView {
-    
-    // プレースホルダーを設定出来る用にする
-    @IBInspectable var placeHolder: String = ""
-    @IBInspectable var placeHolderColor: UIColor = .lightGray
 
+    // プレースホルダーを設定出来る用にする
+    @IBInspectable var placeHolder: String = "" {
+        didSet {
+            self.updateLayer()
+        }
+    }
+    @IBInspectable var placeHolderColor: UIColor = .lightGray
     private var placeHolderLayer: CATextLayer?
 
     // delegateの設定を行う
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.delegate = self
+    }
+
+    public override init(frame: CGRect, textContainer: NSTextContainer?) {
+       super.init(frame: frame, textContainer: textContainer)
+       self.delegate = self
     }
 
     // layerの更新を行う
@@ -31,6 +39,7 @@ import UIKit
             self.removePlaceHolderLayerIfNeed()
         }
     }
+
     // placeHolderを作成する
     private func createPlaceHolderLayerIfNeed() {
         let layer = CATextLayer()
@@ -49,7 +58,6 @@ import UIKit
         placeHolderLayer?.removeFromSuperlayer()
         placeHolderLayer = nil
     }
-
 }
 
 extension TextViewWithPlaceHolder: UITextViewDelegate {
