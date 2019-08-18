@@ -11,6 +11,12 @@ import UIKit
 
 @IBDesignable class TextViewWithPlaceHolder: UITextView {
 
+    override var text: String! {
+        didSet {
+            self.updateLayer()
+        }
+    }
+
     // プレースホルダーを設定出来る用にする
     @IBInspectable var placeHolder: String = "" {
         didSet {
