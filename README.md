@@ -12,4 +12,5 @@
 |RealmSample|Realmへの保存・ロード| - realmへの保存<br> - realmからの読み込み<br> - idを自動生成|
 |mkMapViewSample|MKMapViewの利用| - 地図の表示<br> - 現在地の表示<br> - 現在地を地図の中心にする<br> - 住所を入力して該当箇所を表示・ピンを指す<br> - ロングタップの検出|
 |TextViewWithPlaceHolder|PlaceHolder付きのTextViewの利用| - PlaceHolderをインスペクタクルで設定出来るようにする。|
+|ScrollViewSample| - scrollViewの利用<br>| - scrollViewをstoryBoard経由で利用する。<br> - キーボード立ち上げ時に入力欄がキーボードで隠れない用にする|
 |||||
