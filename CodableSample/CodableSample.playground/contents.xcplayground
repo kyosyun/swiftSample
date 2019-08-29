@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='6.0' target-platform='ios' executeOnSourceChanges='false'>
     <pages>
-        <page name='nestedContainer'/>
-        <page name='nestedCodable'/>
+        <page name='1_CodingKeys'/>
+        <page name='2_encode'/>
+        <page name='3_protcol'/>
     </pages>
 </playground>
