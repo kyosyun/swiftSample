@@ -15,5 +15,3 @@ struct Landmark: Encodable {
 
 let data = try! JSONEncoder().encode(Landmark(name: "六本木ヒルズ", buildYear: "2003", height: "238"))
 print(String(data: data, encoding: .utf8) ?? "")
-
-

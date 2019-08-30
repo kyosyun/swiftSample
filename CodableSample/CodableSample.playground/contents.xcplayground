@@ -4,5 +4,7 @@
         <page name='1_CodingKeys'/>
         <page name='2_encode'/>
         <page name='3_protcol'/>
+        <page name='SimpleEncode'/>
+        <page name='SimpleDecode'/>
     </pages>
 </playground>
