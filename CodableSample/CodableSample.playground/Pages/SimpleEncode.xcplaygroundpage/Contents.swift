@@ -1,9 +1,10 @@
 import Foundation
 
 struct Landmark: Encodable {
-    var name: String
-    var buildYear: String
-    var height: String
+    let name: String
+    let buildYear: String
+    let height: String
+    private let type: String? = "landmark"
 }
 
 let hills = Landmark(name: "六本木ヒルズ", buildYear: "2003", height: "238")

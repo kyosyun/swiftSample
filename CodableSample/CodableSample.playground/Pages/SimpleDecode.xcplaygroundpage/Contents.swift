@@ -4,7 +4,8 @@ struct Landmark: Decodable {
     let name: String
     let buildYear: Int
     let landmarkType: LandmarkType // ① enumにも対応
-    let additionalInfo: AdditionalInfo // ② nest出来る
+    let additionalInfo: AdditionalInfo? // ② nest出来る
+    private let typeName: String? = "landmark"
 
     struct AdditionalInfo: Decodable {
 
