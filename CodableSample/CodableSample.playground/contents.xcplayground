@@ -6,5 +6,6 @@
         <page name='3_protcol'/>
         <page name='SimpleEncode'/>
         <page name='SimpleDecode'/>
+        <page name='DecodePattern'/>
     </pages>
 </playground>
