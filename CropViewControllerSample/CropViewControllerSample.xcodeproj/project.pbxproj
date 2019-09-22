@@ -1,0 +1,813 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2161D611D0C6A77072E14CE9 /* Pods_CropViewControllerSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143D7B22A6C1AD663990B141 /* Pods_CropViewControllerSampleTests.framework */; };
+		361198A300646D81F1AAF759 /* Pods_CropViewControllerSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B59B39989844DAAEA68FD91 /* Pods_CropViewControllerSample.framework */; };
+		D80B0EAEA2493567FD424F3A /* Pods_CropViewControllerSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F315098BF81C9DB9DDC40B5D /* Pods_CropViewControllerSampleUITests.framework */; };
+		DA55893E2337495800E9D7B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA55893D2337495800E9D7B3 /* AppDelegate.swift */; };
+		DA5589402337495800E9D7B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA55893F2337495800E9D7B3 /* ViewController.swift */; };
+		DA5589432337495800E9D7B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5589412337495800E9D7B3 /* Main.storyboard */; };
+		DA5589462337495800E9D7B3 /* CropViewControllerSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA5589442337495800E9D7B3 /* CropViewControllerSample.xcdatamodeld */; };
+		DA5589482337495900E9D7B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA5589472337495900E9D7B3 /* Assets.xcassets */; };
+		DA55894B2337495900E9D7B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5589492337495900E9D7B3 /* LaunchScreen.storyboard */; };
+		DA5589562337495900E9D7B3 /* CropViewControllerSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5589552337495900E9D7B3 /* CropViewControllerSampleTests.swift */; };
+		DA5589612337495900E9D7B3 /* CropViewControllerSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5589602337495900E9D7B3 /* CropViewControllerSampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA5589522337495900E9D7B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA5589322337495800E9D7B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA5589392337495800E9D7B3;
+			remoteInfo = CropViewControllerSample;
+		};
+		DA55895D2337495900E9D7B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA5589322337495800E9D7B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA5589392337495800E9D7B3;
+			remoteInfo = CropViewControllerSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		024EA5B478BE644A5CF0AA5E /* Pods-CropViewControllerSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CropViewControllerSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CropViewControllerSampleTests/Pods-CropViewControllerSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		143D7B22A6C1AD663990B141 /* Pods_CropViewControllerSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CropViewControllerSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FA35C0F7393E250FE0C7F9 /* Pods-CropViewControllerSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CropViewControllerSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CropViewControllerSampleTests/Pods-CropViewControllerSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3824100EDAB8029B0F430E61 /* Pods-CropViewControllerSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CropViewControllerSampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CropViewControllerSampleUITests/Pods-CropViewControllerSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		56F7D00CC84AED54320453D4 /* Pods-CropViewControllerSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CropViewControllerSampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CropViewControllerSampleUITests/Pods-CropViewControllerSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5B59B39989844DAAEA68FD91 /* Pods_CropViewControllerSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CropViewControllerSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE56BF16AC9CCEE2803CF83 /* Pods-CropViewControllerSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CropViewControllerSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CropViewControllerSample/Pods-CropViewControllerSample.debug.xcconfig"; sourceTree = "<group>"; };
+		DA55893A2337495800E9D7B3 /* CropViewControllerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CropViewControllerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA55893D2337495800E9D7B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA55893F2337495800E9D7B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA5589422337495800E9D7B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA5589452337495800E9D7B3 /* CropViewControllerSample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CropViewControllerSample.xcdatamodel; sourceTree = "<group>"; };
+		DA5589472337495900E9D7B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA55894A2337495900E9D7B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA55894C2337495900E9D7B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA5589512337495900E9D7B3 /* CropViewControllerSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CropViewControllerSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA5589552337495900E9D7B3 /* CropViewControllerSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropViewControllerSampleTests.swift; sourceTree = "<group>"; };
+		DA5589572337495900E9D7B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA55895C2337495900E9D7B3 /* CropViewControllerSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CropViewControllerSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA5589602337495900E9D7B3 /* CropViewControllerSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropViewControllerSampleUITests.swift; sourceTree = "<group>"; };
+		DA5589622337495900E9D7B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F133822E1AF0B2168F7B6921 /* Pods-CropViewControllerSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CropViewControllerSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-CropViewControllerSample/Pods-CropViewControllerSample.release.xcconfig"; sourceTree = "<group>"; };
+		F315098BF81C9DB9DDC40B5D /* Pods_CropViewControllerSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CropViewControllerSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA5589372337495800E9D7B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361198A300646D81F1AAF759 /* Pods_CropViewControllerSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA55894E2337495900E9D7B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2161D611D0C6A77072E14CE9 /* Pods_CropViewControllerSampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA5589592337495900E9D7B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80B0EAEA2493567FD424F3A /* Pods_CropViewControllerSampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B4D481DCA9E5F6378146AE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B59B39989844DAAEA68FD91 /* Pods_CropViewControllerSample.framework */,
+				143D7B22A6C1AD663990B141 /* Pods_CropViewControllerSampleTests.framework */,
+				F315098BF81C9DB9DDC40B5D /* Pods_CropViewControllerSampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B5F300F444FCA3A52FEFE59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FE56BF16AC9CCEE2803CF83 /* Pods-CropViewControllerSample.debug.xcconfig */,
+				F133822E1AF0B2168F7B6921 /* Pods-CropViewControllerSample.release.xcconfig */,
+				18FA35C0F7393E250FE0C7F9 /* Pods-CropViewControllerSampleTests.debug.xcconfig */,
+				024EA5B478BE644A5CF0AA5E /* Pods-CropViewControllerSampleTests.release.xcconfig */,
+				3824100EDAB8029B0F430E61 /* Pods-CropViewControllerSampleUITests.debug.xcconfig */,
+				56F7D00CC84AED54320453D4 /* Pods-CropViewControllerSampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DA5589312337495800E9D7B3 = {
+			isa = PBXGroup;
+			children = (
+				DA55893C2337495800E9D7B3 /* CropViewControllerSample */,
+				DA5589542337495900E9D7B3 /* CropViewControllerSampleTests */,
+				DA55895F2337495900E9D7B3 /* CropViewControllerSampleUITests */,
+				DA55893B2337495800E9D7B3 /* Products */,
+				8B5F300F444FCA3A52FEFE59 /* Pods */,
+				7B4D481DCA9E5F6378146AE7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DA55893B2337495800E9D7B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA55893A2337495800E9D7B3 /* CropViewControllerSample.app */,
+				DA5589512337495900E9D7B3 /* CropViewControllerSampleTests.xctest */,
+				DA55895C2337495900E9D7B3 /* CropViewControllerSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA55893C2337495800E9D7B3 /* CropViewControllerSample */ = {
+			isa = PBXGroup;
+			children = (
+				DA55893D2337495800E9D7B3 /* AppDelegate.swift */,
+				DA55893F2337495800E9D7B3 /* ViewController.swift */,
+				DA5589412337495800E9D7B3 /* Main.storyboard */,
+				DA5589472337495900E9D7B3 /* Assets.xcassets */,
+				DA5589492337495900E9D7B3 /* LaunchScreen.storyboard */,
+				DA55894C2337495900E9D7B3 /* Info.plist */,
+				DA5589442337495800E9D7B3 /* CropViewControllerSample.xcdatamodeld */,
+			);
+			path = CropViewControllerSample;
+			sourceTree = "<group>";
+		};
+		DA5589542337495900E9D7B3 /* CropViewControllerSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA5589552337495900E9D7B3 /* CropViewControllerSampleTests.swift */,
+				DA5589572337495900E9D7B3 /* Info.plist */,
+			);
+			path = CropViewControllerSampleTests;
+			sourceTree = "<group>";
+		};
+		DA55895F2337495900E9D7B3 /* CropViewControllerSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA5589602337495900E9D7B3 /* CropViewControllerSampleUITests.swift */,
+				DA5589622337495900E9D7B3 /* Info.plist */,
+			);
+			path = CropViewControllerSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA5589392337495800E9D7B3 /* CropViewControllerSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA5589652337495900E9D7B3 /* Build configuration list for PBXNativeTarget "CropViewControllerSample" */;
+			buildPhases = (
+				3ECA55F24DAC0FAD55AFCF2F /* [CP] Check Pods Manifest.lock */,
+				DA5589362337495800E9D7B3 /* Sources */,
+				DA5589372337495800E9D7B3 /* Frameworks */,
+				DA5589382337495800E9D7B3 /* Resources */,
+				B005AFECCCD7FF0F7A1B04AC /* [CP] Embed Pods Frameworks */,
+				71A8D7591E15B72880A55896 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CropViewControllerSample;
+			productName = CropViewControllerSample;
+			productReference = DA55893A2337495800E9D7B3 /* CropViewControllerSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA5589502337495900E9D7B3 /* CropViewControllerSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA5589682337495900E9D7B3 /* Build configuration list for PBXNativeTarget "CropViewControllerSampleTests" */;
+			buildPhases = (
+				709F7491D3E93B0A0227854D /* [CP] Check Pods Manifest.lock */,
+				DA55894D2337495900E9D7B3 /* Sources */,
+				DA55894E2337495900E9D7B3 /* Frameworks */,
+				DA55894F2337495900E9D7B3 /* Resources */,
+				BC15C65044EDEEC536CBEA11 /* [CP] Embed Pods Frameworks */,
+				7A0D631A5DBECA5CCE1D94F4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA5589532337495900E9D7B3 /* PBXTargetDependency */,
+			);
+			name = CropViewControllerSampleTests;
+			productName = CropViewControllerSampleTests;
+			productReference = DA5589512337495900E9D7B3 /* CropViewControllerSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA55895B2337495900E9D7B3 /* CropViewControllerSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA55896B2337495900E9D7B3 /* Build configuration list for PBXNativeTarget "CropViewControllerSampleUITests" */;
+			buildPhases = (
+				0596B2CCCDDB5DC5FB45ECE3 /* [CP] Check Pods Manifest.lock */,
+				DA5589582337495900E9D7B3 /* Sources */,
+				DA5589592337495900E9D7B3 /* Frameworks */,
+				DA55895A2337495900E9D7B3 /* Resources */,
+				568CE429F9E0FEA4DB0B4ED3 /* [CP] Embed Pods Frameworks */,
+				9FA70197262C2C501072EFC9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA55895E2337495900E9D7B3 /* PBXTargetDependency */,
+			);
+			name = CropViewControllerSampleUITests;
+			productName = CropViewControllerSampleUITests;
+			productReference = DA55895C2337495900E9D7B3 /* CropViewControllerSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA5589322337495800E9D7B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = kyo_s;
+				TargetAttributes = {
+					DA5589392337495800E9D7B3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					DA5589502337495900E9D7B3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DA5589392337495800E9D7B3;
+					};
+					DA55895B2337495900E9D7B3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DA5589392337495800E9D7B3;
+					};
+				};
+			};
+			buildConfigurationList = DA5589352337495800E9D7B3 /* Build configuration list for PBXProject "CropViewControllerSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA5589312337495800E9D7B3;
+			productRefGroup = DA55893B2337495800E9D7B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA5589392337495800E9D7B3 /* CropViewControllerSample */,
+				DA5589502337495900E9D7B3 /* CropViewControllerSampleTests */,
+				DA55895B2337495900E9D7B3 /* CropViewControllerSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA5589382337495800E9D7B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA55894B2337495900E9D7B3 /* LaunchScreen.storyboard in Resources */,
+				DA5589482337495900E9D7B3 /* Assets.xcassets in Resources */,
+				DA5589432337495800E9D7B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA55894F2337495900E9D7B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA55895A2337495900E9D7B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0596B2CCCDDB5DC5FB45ECE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CropViewControllerSampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3ECA55F24DAC0FAD55AFCF2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CropViewControllerSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		568CE429F9E0FEA4DB0B4ED3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CropViewControllerSampleUITests/Pods-CropViewControllerSampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		709F7491D3E93B0A0227854D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CropViewControllerSampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71A8D7591E15B72880A55896 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CropViewControllerSample/Pods-CropViewControllerSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A0D631A5DBECA5CCE1D94F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CropViewControllerSampleTests/Pods-CropViewControllerSampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FA70197262C2C501072EFC9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CropViewControllerSampleUITests/Pods-CropViewControllerSampleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B005AFECCCD7FF0F7A1B04AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CropViewControllerSample/Pods-CropViewControllerSample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CropViewController/CropViewController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CropViewController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CropViewControllerSample/Pods-CropViewControllerSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC15C65044EDEEC536CBEA11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CropViewControllerSampleTests/Pods-CropViewControllerSampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA5589362337495800E9D7B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5589402337495800E9D7B3 /* ViewController.swift in Sources */,
+				DA55893E2337495800E9D7B3 /* AppDelegate.swift in Sources */,
+				DA5589462337495800E9D7B3 /* CropViewControllerSample.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA55894D2337495900E9D7B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5589562337495900E9D7B3 /* CropViewControllerSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA5589582337495900E9D7B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5589612337495900E9D7B3 /* CropViewControllerSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA5589532337495900E9D7B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA5589392337495800E9D7B3 /* CropViewControllerSample */;
+			targetProxy = DA5589522337495900E9D7B3 /* PBXContainerItemProxy */;
+		};
+		DA55895E2337495900E9D7B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA5589392337495800E9D7B3 /* CropViewControllerSample */;
+			targetProxy = DA55895D2337495900E9D7B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA5589412337495800E9D7B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA5589422337495800E9D7B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA5589492337495900E9D7B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA55894A2337495900E9D7B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA5589632337495900E9D7B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA5589642337495900E9D7B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA5589662337495900E9D7B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FE56BF16AC9CCEE2803CF83 /* Pods-CropViewControllerSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X85VXFU9Y4;
+				INFOPLIST_FILE = CropViewControllerSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kyo-s.CropViewControllerSample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA5589672337495900E9D7B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F133822E1AF0B2168F7B6921 /* Pods-CropViewControllerSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X85VXFU9Y4;
+				INFOPLIST_FILE = CropViewControllerSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kyo-s.CropViewControllerSample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DA5589692337495900E9D7B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18FA35C0F7393E250FE0C7F9 /* Pods-CropViewControllerSampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X85VXFU9Y4;
+				INFOPLIST_FILE = CropViewControllerSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kyo-s.CropViewControllerSampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CropViewControllerSample.app/CropViewControllerSample";
+			};
+			name = Debug;
+		};
+		DA55896A2337495900E9D7B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 024EA5B478BE644A5CF0AA5E /* Pods-CropViewControllerSampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X85VXFU9Y4;
+				INFOPLIST_FILE = CropViewControllerSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kyo-s.CropViewControllerSampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CropViewControllerSample.app/CropViewControllerSample";
+			};
+			name = Release;
+		};
+		DA55896C2337495900E9D7B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3824100EDAB8029B0F430E61 /* Pods-CropViewControllerSampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X85VXFU9Y4;
+				INFOPLIST_FILE = CropViewControllerSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kyo-s.CropViewControllerSampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CropViewControllerSample;
+			};
+			name = Debug;
+		};
+		DA55896D2337495900E9D7B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56F7D00CC84AED54320453D4 /* Pods-CropViewControllerSampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X85VXFU9Y4;
+				INFOPLIST_FILE = CropViewControllerSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kyo-s.CropViewControllerSampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CropViewControllerSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA5589352337495800E9D7B3 /* Build configuration list for PBXProject "CropViewControllerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA5589632337495900E9D7B3 /* Debug */,
+				DA5589642337495900E9D7B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA5589652337495900E9D7B3 /* Build configuration list for PBXNativeTarget "CropViewControllerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA5589662337495900E9D7B3 /* Debug */,
+				DA5589672337495900E9D7B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA5589682337495900E9D7B3 /* Build configuration list for PBXNativeTarget "CropViewControllerSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA5589692337495900E9D7B3 /* Debug */,
+				DA55896A2337495900E9D7B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA55896B2337495900E9D7B3 /* Build configuration list for PBXNativeTarget "CropViewControllerSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA55896C2337495900E9D7B3 /* Debug */,
+				DA55896D2337495900E9D7B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DA5589442337495800E9D7B3 /* CropViewControllerSample.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DA5589452337495800E9D7B3 /* CropViewControllerSample.xcdatamodel */,
+			);
+			currentVersion = DA5589452337495800E9D7B3 /* CropViewControllerSample.xcdatamodel */;
+			path = CropViewControllerSample.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DA5589322337495800E9D7B3 /* Project object */;
+}
