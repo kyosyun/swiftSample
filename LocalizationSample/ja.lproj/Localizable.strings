@@ -1,0 +1,11 @@
+/* 
+  File.strings
+  LocalizationSample
+
+  Created by 許　駿 on 2019/12/12.
+  Copyright © 2019年 kyo_s. All rights reserved.
+*/
+
+"test" = "test_ja";
+"LocalizationStringKey" = "LocalizationString_JA";
+"img" = "img_ja";
