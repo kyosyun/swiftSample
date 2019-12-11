@@ -14,4 +14,9 @@
 |TextViewWithPlaceHolder|PlaceHolder付きのTextViewの利用| - PlaceHolderをインスペクタクルで設定出来るようにする。|
 |ScrollViewSample| - scrollViewの利用<br>| - scrollViewをstoryBoard経由で利用する。<br> - キーボード立ち上げ時に入力欄がキーボードで隠れない用にする|
 |CropViewSample| - CropViewの利用<br>| - 画像を選択してCropVIewで画像をトリミングする。|
+| TODO | - TODO <br>| - 様々な多言語対応<br> - Labelの多言語対応. <br> - 端末の言語読み込み. <br> - 言語によって画像の置き換え|
+| TODO | - TODO <br>| - Libraryから動画の読み込み |
+| TODO | - TODO <br>| - 弧の描画 |
+| TODO | - TODO <br>| - 文字列の圧縮 |
+| TODO | - TODO <br>| - 文字列からQRコードの生成 |
 ||||
