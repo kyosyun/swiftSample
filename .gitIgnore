@@ -1,4 +1,6 @@
 */Pods/*
+*/Carthage/*
+*/Build/*
 *.xcuserdatad
 .DS_Store
 UserInterfaceState.xcuserstate
