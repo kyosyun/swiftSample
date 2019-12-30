@@ -1,5 +1,7 @@
 */Pods/*
+*.xcuserdatad
 .DS_Store
 UserInterfaceState.xcuserstate
 Expressions.xcexplist
 Breakpoints_v2.xcbkptlist
+*.xcworkspacedata
