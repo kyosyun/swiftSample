@@ -7,5 +7,5 @@
 */
 
 "test" = "test_ja";
-"LocalizationStringKey" = "LocalizationString_JA";
 "img" = "img_ja";
+"LocalizationStringKey" = "LocalizationString_JA";

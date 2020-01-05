@@ -17,6 +17,7 @@
 		DA6CCCEB23A14DB0007A6B88 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA6CCCED23A14DB0007A6B88 /* Localizable.strings */; };
 		DA6CCCF123A15373007A6B88 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = DA6CCCF323A15373007A6B88 /* Localizable.stringsdict */; };
 		DA6CCCF523A158FD007A6B88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA6CCCF723A158FD007A6B88 /* Main.storyboard */; };
+		DAD393DE23C1DB4E00D95C8B /* Foundation+NSLocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD393DD23C1DB4E00D95C8B /* Foundation+NSLocalizedString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,12 +53,13 @@
 		DA6CCCD123A144CC007A6B88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA6CCCDE23A14574007A6B88 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		DA6CCCEC23A14DB0007A6B88 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
-		DA6CCCEE23A14DCC007A6B88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		DA6CCCF223A15373007A6B88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		DA6CCCF423A15375007A6B88 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = ja; path = ja.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
-		DA6CCCF923A1590B007A6B88 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
-		DA6CCCFA23A1590D007A6B88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DA6CCCFB23A15916007A6B88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		DAD393D323C1C0E800D95C8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAD393DA23C1D1C300D95C8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		DAD393DB23C1D1C400D95C8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		DAD393DC23C1D3F400D95C8B /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		DAD393DD23C1DB4E00D95C8B /* Foundation+NSLocalizedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Foundation+NSLocalizedString.swift"; sourceTree = "<group>"; };
+		DAD393DF23C1E6C700D95C8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 		DA6CCCAB23A144C8007A6B88 /* LocalizationSample */ = {
 			isa = PBXGroup;
 			children = (
+				DAD393DD23C1DB4E00D95C8B /* Foundation+NSLocalizedString.swift */,
 				DA6CCCAC23A144C8007A6B88 /* AppDelegate.swift */,
 				DA6CCCAE23A144C8007A6B88 /* ViewController.swift */,
 				DA6CCCF323A15373007A6B88 /* Localizable.stringsdict */,
@@ -223,9 +226,9 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
 				ja,
+				en,
 			);
 			mainGroup = DA6CCCA023A144C8007A6B88;
 			productRefGroup = DA6CCCAA23A144C8007A6B88 /* Products */;
@@ -275,6 +278,7 @@
 			files = (
 				DA6CCCAF23A144C8007A6B88 /* ViewController.swift in Sources */,
 				DA6CCCB523A144C8007A6B88 /* LocalizationSample.xcdatamodeld in Sources */,
+				DAD393DE23C1DB4E00D95C8B /* Foundation+NSLocalizedString.swift in Sources */,
 				DA6CCCAD23A144C8007A6B88 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +320,7 @@
 			children = (
 				DA6CCCB923A144CB007A6B88 /* Base */,
 				DA6CCCDE23A14574007A6B88 /* ja */,
+				DAD393DB23C1D1C400D95C8B /* en */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -324,7 +329,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				DA6CCCEC23A14DB0007A6B88 /* ja */,
-				DA6CCCEE23A14DCC007A6B88 /* en */,
+				DAD393DF23C1E6C700D95C8B /* en */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -332,7 +337,6 @@
 		DA6CCCF323A15373007A6B88 /* Localizable.stringsdict */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DA6CCCF223A15373007A6B88 /* en */,
 				DA6CCCF423A15375007A6B88 /* ja */,
 			);
 			name = Localizable.stringsdict;
@@ -341,9 +345,9 @@
 		DA6CCCF723A158FD007A6B88 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DA6CCCF923A1590B007A6B88 /* ja */,
-				DA6CCCFA23A1590D007A6B88 /* Base */,
-				DA6CCCFB23A15916007A6B88 /* en */,
+				DAD393D323C1C0E800D95C8B /* Base */,
+				DAD393DA23C1D1C300D95C8B /* en */,
+				DAD393DC23C1D3F400D95C8B /* ja */,
 			);
 			name = Main.storyboard;
 			path = LocalizationSample;

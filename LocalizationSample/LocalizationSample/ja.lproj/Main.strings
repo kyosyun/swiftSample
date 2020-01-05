@@ -1,6 +1,18 @@
 
-/* Class = "UILabel"; text = "YES_BASE"; ObjectID = "w4W-Tg-uWY"; */
-"w4W-Tg-uWY.text" = "YES_BASE";
+/* Class = "UIButton"; normalTitle = "Edit"; ObjectID = "1ql-cb-qOr"; */
+"1ql-cb-qOr.normalTitle" = "Edit_ja";
 
-/* Class = "UILabel"; text = "LocalizedString"; ObjectID = "wIJ-to-ZFx"; */
-"wIJ-to-ZFx.text" = "LocalizedString";
+/* Class = "UIButton"; normalTitle = "EN"; ObjectID = "9HQ-Gf-YCY"; */
+"9HQ-Gf-YCY.normalTitle" = "EN_ja";
+
+/* Class = "UILabel"; text = "EditableString"; ObjectID = "KsK-I6-cF4"; */
+"KsK-I6-cF4.text" = "EditableString_ja";
+
+/* Class = "UIButton"; normalTitle = "JA"; ObjectID = "ohG-e6-J0q"; */
+"ohG-e6-J0q.normalTitle" = "JA_ja";
+
+/* Class = "UILabel"; text = "YES_BASE_Storyboard"; ObjectID = "w4W-Tg-uWY"; */
+"w4W-Tg-uWY.text" = "YES_BASE_Storyboard_ja";
+
+/* Class = "UILabel"; text = "LocalizedString_NSLocalizedString"; ObjectID = "wIJ-to-ZFx"; */
+"wIJ-to-ZFx.text" = "LocalizedString_NSLocalizedString_ja";
