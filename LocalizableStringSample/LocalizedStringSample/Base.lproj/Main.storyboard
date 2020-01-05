@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LocalizableStringSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[端末言語]:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BYm-HU-9dM">
+                                <rect key="frame" x="10" y="30" width="265" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[言語設定]" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rsE-Pl-WRM">
+                                <rect key="frame" x="147" y="323.5" width="81.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nGj-PH-pak">
+                                <rect key="frame" x="126" y="524" width="123" height="30"/>
+                                <state key="normal" title="[画面再読み込み] "/>
+                                <connections>
+                                    <action selector="refreshBtnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B85-tP-Eav"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="F3f-4g-aSB">
+                                <rect key="frame" x="30" y="394" width="315" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8c7-8N-2vS">
+                                        <rect key="frame" x="0.0" y="0.0" width="42" height="30"/>
+                                        <state key="normal" title="[英語]"/>
+                                        <connections>
+                                            <action selector="enBtnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="van-fO-H3v"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="24I-Uj-Suu">
+                                        <rect key="frame" x="117.5" y="0.0" width="57" height="30"/>
+                                        <state key="normal" title="[日本語]"/>
+                                        <connections>
+                                            <action selector="jaBtnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vll-px-sSt"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QRc-aw-pa4">
+                                        <rect key="frame" x="227" y="0.0" width="88" height="30"/>
+                                        <state key="normal" title="[フランス語]"/>
+                                        <connections>
+                                            <action selector="frBtnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K5d-Dg-LrB"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="rsE-Pl-WRM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3jk-9f-m0s"/>
+                            <constraint firstItem="nGj-PH-pak" firstAttribute="top" secondItem="F3f-4g-aSB" secondAttribute="bottom" constant="100" id="727-X6-sLe"/>
+                            <constraint firstItem="F3f-4g-aSB" firstAttribute="top" secondItem="rsE-Pl-WRM" secondAttribute="bottom" constant="50" id="7qc-b7-jRB"/>
+                            <constraint firstItem="rsE-Pl-WRM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="9Wb-2n-bE5"/>
+                            <constraint firstItem="BYm-HU-9dM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="Fkn-E4-o7Z"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="F3f-4g-aSB" secondAttribute="trailing" constant="30" id="V3e-3X-uKi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BYm-HU-9dM" secondAttribute="trailing" constant="100" id="Xgk-eX-Spf"/>
+                            <constraint firstItem="nGj-PH-pak" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kEL-4r-cNp"/>
+                            <constraint firstItem="F3f-4g-aSB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="tjG-sv-fLj"/>
+                            <constraint firstItem="BYm-HU-9dM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="uSy-Dx-nJ5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="deviceLangLabel" destination="BYm-HU-9dM" id="rhY-K9-I6d"/>
+                        <outlet property="enBtn" destination="8c7-8N-2vS" id="zEK-q0-P89"/>
+                        <outlet property="frBtn" destination="QRc-aw-pa4" id="uHN-MK-6fg"/>
+                        <outlet property="jaBtn" destination="24I-Uj-Suu" id="YmP-Mk-TZ7"/>
+                        <outlet property="langSettingLabel" destination="rsE-Pl-WRM" id="mlM-Cu-DC0"/>
+                        <outlet property="refreshBtn" destination="nGj-PH-pak" id="L3K-mF-K5v"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="126.38680659670166"/>
+        </scene>
+    </scenes>
+</document>

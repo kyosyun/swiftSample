@@ -1,0 +1,5 @@
+strings:
+  inputs: ./ja.lproj/Localizable.strings
+  outputs:
+    templateName: structured-swift4
+    output: LocalizedStringSample/L10n.swift
