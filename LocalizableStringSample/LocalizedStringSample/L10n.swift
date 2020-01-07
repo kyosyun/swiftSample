@@ -10,6 +10,8 @@ import Foundation
 
 // swiftlint:disable explicit_type_interface function_parameter_count identifier_name line_length
 // swiftlint:disable nesting type_body_length type_name
+
+// typeSafeの為に作成
 internal enum L10n {
   /// 端末言語:%@
   internal static func deviceSetting(_ p1: String) -> LocalizableKey {
