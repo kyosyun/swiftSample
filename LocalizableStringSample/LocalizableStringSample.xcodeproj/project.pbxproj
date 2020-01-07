@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA5F95DF23C4E401001C3E8C /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5F95DE23C4E401001C3E8C /* AppEnvironment.swift */; };
+		DA5F95E123C4E737001C3E8C /* UserDefaults+EnumExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5F95E023C4E737001C3E8C /* UserDefaults+EnumExtension.swift */; };
+		DA5F95E323C4EAAB001C3E8C /* Lang.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5F95E223C4EAAB001C3E8C /* Lang.swift */; };
 		DAD393ED23C1E93D00D95C8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD393EC23C1E93D00D95C8B /* AppDelegate.swift */; };
 		DAD393EF23C1E93D00D95C8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD393EE23C1E93D00D95C8B /* ViewController.swift */; };
 		DAD393F223C1E93D00D95C8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD393F023C1E93D00D95C8B /* Main.storyboard */; };
@@ -40,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA5F95DE23C4E401001C3E8C /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		DA5F95E023C4E737001C3E8C /* UserDefaults+EnumExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+EnumExtension.swift"; sourceTree = "<group>"; };
+		DA5F95E223C4EAAB001C3E8C /* Lang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lang.swift; sourceTree = "<group>"; };
 		DAD393E923C1E93D00D95C8B /* LocalizableStringSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizableStringSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAD393EC23C1E93D00D95C8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAD393EE23C1E93D00D95C8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -122,6 +128,9 @@
 				DAD393F323C1E93D00D95C8B /* LocalizedStringSample.xcdatamodeld */,
 				DAD3941E23C1EB6300D95C8B /* Foundation+NSLocalizedString.swift */,
 				DAFE46DF23C1FA9F009E4439 /* String.swift */,
+				DA5F95DE23C4E401001C3E8C /* AppEnvironment.swift */,
+				DA5F95E023C4E737001C3E8C /* UserDefaults+EnumExtension.swift */,
+				DA5F95E223C4EAAB001C3E8C /* Lang.swift */,
 			);
 			path = LocalizedStringSample;
 			sourceTree = "<group>";
@@ -282,8 +291,11 @@
 				DAD393F523C1E93D00D95C8B /* LocalizedStringSample.xcdatamodeld in Sources */,
 				DAFE46E223C20D0C009E4439 /* L10n.swift in Sources */,
 				DAFE46E023C1FA9F009E4439 /* String.swift in Sources */,
+				DA5F95E323C4EAAB001C3E8C /* Lang.swift in Sources */,
+				DA5F95DF23C4E401001C3E8C /* AppEnvironment.swift in Sources */,
 				DAD3941F23C1EB6300D95C8B /* Foundation+NSLocalizedString.swift in Sources */,
 				DAD393ED23C1E93D00D95C8B /* AppDelegate.swift in Sources */,
+				DA5F95E123C4E737001C3E8C /* UserDefaults+EnumExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -26,7 +26,8 @@ struct LocalizableKey {
     func tr() -> String {
         let bundle = Bundle.main
         var bundleToUse = bundle
-        if let path = bundle.path(forResource: userLang(), ofType: "lproj"), let bundle = Bundle(path: path) {
+        let lang = AppEnvironment.shared.lang.rawValue
+        if let path = bundle.path(forResource: lang, ofType: "lproj"), let bundle = Bundle(path: path) {
             bundleToUse = bundle
         }
 

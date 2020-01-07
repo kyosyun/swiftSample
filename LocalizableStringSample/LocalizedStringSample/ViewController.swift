@@ -31,7 +31,8 @@ class ViewController: UIViewController {
     }
 
     func setText() {
-        deviceLangLabel.text = String(format: L10n.deviceSetting(userLang()).tr(), userLang())
+        let lang = AppEnvironment.shared.lang.rawValue
+        deviceLangLabel.text = L10n.deviceSetting(lang).tr()
         langSettingLabel.text = L10n.langSetting.tr()
         enBtn.setTitle(L10n.Lang.en.tr(), for: .normal)
         jaBtn.setTitle(L10n.Lang.ja.tr(), for: .normal)
@@ -40,16 +41,16 @@ class ViewController: UIViewController {
 
     // MARK: - 起動中に言語切替
     @IBAction func enBtnTapped(_ sender: UIButton) {
-        UserDefaults.standard.set("en", forKey: "lang")
+        AppEnvironment.shared.lang = Lang.EN
     }
 
     @IBAction func jaBtnTapped(_ sender: UIButton) {
-        UserDefaults.standard.set("ja", forKey: "lang")
+        AppEnvironment.shared.lang = Lang.JA
     }
 
     // MARK: - どの言語にも一致しない場合は、Localization native development regionの設定を読み込む
     @IBAction func frBtnTapped(_ sender: UIButton) {
-        UserDefaults.standard.set("fr", forKey: "lang")
+        AppEnvironment.shared.lang = Lang.FR
     }
 
     // MARK: - 画面の再読み込み
