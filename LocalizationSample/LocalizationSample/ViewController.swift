@@ -20,6 +20,12 @@ class ViewController: UIViewController {
         setText()
     }
 
+    @IBAction func loadLocalLang(_ sender: UIButton) {
+        print(Locale.preferredLanguages)
+        print(UserDefaults.standard.object(forKey: "AppleLaanguages") ?? "")
+    }
+
+
     // MARK: 言語に対応したテキスト・画像の呼び出し
     func setText() {
         localizedString.text = NSLocalizedString("LocalizationStringKey", comment: "comment")

@@ -74,9 +74,17 @@
                                     <action selector="editTapped:" destination="ly2-09-CH0" eventType="touchUpInside" id="MFc-06-q6z"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fmX-vK-ZWk">
+                                <rect key="frame" x="172.5" y="230.5" width="30" height="30"/>
+                                <state key="normal" title="load"/>
+                                <connections>
+                                    <action selector="loadLocalLang:" destination="ly2-09-CH0" eventType="touchUpInside" id="0UQ-Lx-fcC"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="fmX-vK-ZWk" firstAttribute="top" secondItem="blW-by-9Sf" secondAttribute="bottom" constant="50" id="14L-3V-hTZ"/>
                             <constraint firstItem="wIJ-to-ZFx" firstAttribute="centerX" secondItem="RE5-u2-Umk" secondAttribute="centerX" id="2Gm-ua-Zwv"/>
                             <constraint firstItem="QTs-P0-SYc" firstAttribute="centerY" secondItem="KsK-I6-cF4" secondAttribute="centerY" id="3he-0B-3dY"/>
                             <constraint firstItem="w4W-Tg-uWY" firstAttribute="centerY" secondItem="RE5-u2-Umk" secondAttribute="centerY" id="4hD-B2-5kT"/>
@@ -84,6 +92,7 @@
                             <constraint firstItem="QTs-P0-SYc" firstAttribute="leading" secondItem="KsK-I6-cF4" secondAttribute="trailing" constant="10" id="DOW-Oe-JSg"/>
                             <constraint firstItem="uh0-XF-wJz" firstAttribute="trailing" secondItem="GJr-iQ-J4e" secondAttribute="trailing" id="GG6-ds-12e"/>
                             <constraint firstItem="wIJ-to-ZFx" firstAttribute="top" secondItem="uh0-XF-wJz" secondAttribute="top" constant="10" id="LmR-4R-G2r"/>
+                            <constraint firstItem="fmX-vK-ZWk" firstAttribute="centerX" secondItem="RE5-u2-Umk" secondAttribute="centerX" id="Osj-AE-pc0"/>
                             <constraint firstItem="w4W-Tg-uWY" firstAttribute="centerX" secondItem="RE5-u2-Umk" secondAttribute="centerX" id="Q5z-IM-Z9v"/>
                             <constraint firstItem="uh0-XF-wJz" firstAttribute="bottom" secondItem="GJr-iQ-J4e" secondAttribute="bottom" id="c8M-oI-hAo"/>
                             <constraint firstItem="KsK-I6-cF4" firstAttribute="top" secondItem="wIJ-to-ZFx" secondAttribute="bottom" constant="30" id="d4C-gf-kWS"/>
