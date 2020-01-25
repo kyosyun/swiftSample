@@ -16,6 +16,7 @@
 |CropViewSample| - CropViewの利用<br>| - 画像を選択してCropVIewで画像をトリミングする。|
 | LocalizationSample| - 様々な多言語対応を試してみる |- localizedString.stringsを利用した多言語対応<br> - storyboardの切り出しにより多言語対応<br> - 再起動しないで言語を切り替える <br> - Labelの多言語対応. <br> - 端末の言語読み込み. <br> - 言語によって画像の置き換え|
 | LocalizedStringSample| - LocalizedString.stringsを使った多言語対応とTips|- 起動中に言語切替:NSLocalizedStringのOverride <br> - viewの再読み込み <br> - 端末言語をデフォルトにする <br> - swiftgenを利用 <br> UserDefaultsにおいてEnumを保存する|
+| AVPlayerSample | - AVPlayerの利用| - URLから動画の読み込みを実施 <br> - 動画をSeekして、最初から再生 |
 | TODO | - TODO <br>| - Libraryから動画の読み込み |
 | TODO | - TODO <br>| - 弧の描画 |
 | TODO | - TODO <br>| - 文字列の圧縮 |
