@@ -19,8 +19,10 @@
   - Driver
   - 実例
 # Observable
+  - オブサーバーパターン: プログラムないのイベントを他のオブジェクトへ通知する処理で使われるデザインパターンの一種  
+  - シーケンス: あらかじめ定められた順序または手続きに従って制御の各段階を逐次進めていく制御。可視化するのが簡単な概念  
+  - シーケンスをObservaleにすることで、視認しやすく用意に制御出来るようになる。  
   - Event
-    -
   ```
   enum Event<Element>  {
       case Next(Element)      // next element of a sequence
