@@ -7,3 +7,9 @@ UserInterfaceState.xcuserstate
 Expressions.xcexplist
 Breakpoints_v2.xcbkptlist
 *.xcworkspacedata
+*/IDEWorkspaceChecks.plist
+*/.xccurrentversion
+*/*.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+sandbox/*
+*/*.xcodeproj/project.xcworkspace/xcuserdata/*.xcuserdatad/UserInterfaceState.xcuserst
+
