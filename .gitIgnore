@@ -12,4 +12,7 @@ Breakpoints_v2.xcbkptlist
 */*.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
 sandbox/*
 */*.xcodeproj/project.xcworkspace/xcuserdata/*.xcuserdatad/UserInterfaceState.xcuserst
+GoogleService-Info.plist
+IDEWorkspaceChecks.plist
+.xccurrentversion
 
