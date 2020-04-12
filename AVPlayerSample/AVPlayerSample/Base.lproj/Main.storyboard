@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -25,17 +23,37 @@
                                     <action selector="restart:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kBP-w0-Xn2"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jb7-RU-q7S">
+                                <rect key="frame" x="10" y="627" width="85" height="30"/>
+                                <state key="normal" title="Select Move"/>
+                                <connections>
+                                    <action selector="selectMove:" destination="BYZ-38-t0r" eventType="touchUpInside" id="107-m6-Tyh"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qgq-TQ-bUR">
+                                <rect key="frame" x="0.0" y="-1" width="375" height="617"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qgq-TQ-bUR" secondAttribute="trailing" id="BKS-bh-Xgp"/>
+                            <constraint firstItem="jb7-RU-q7S" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="IMN-vy-lrL"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="stW-me-4Rr" secondAttribute="trailing" constant="10" id="KOn-sF-uiQ"/>
+                            <constraint firstItem="qgq-TQ-bUR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="NZJ-Lt-PYd"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="stW-me-4Rr" secondAttribute="bottom" constant="10" id="aXx-rf-4cm"/>
+                            <constraint firstItem="qgq-TQ-bUR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fhM-mg-fv9"/>
+                            <constraint firstItem="jb7-RU-q7S" firstAttribute="top" secondItem="qgq-TQ-bUR" secondAttribute="bottom" constant="10" id="nTj-hf-sLM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="jb7-RU-q7S" secondAttribute="bottom" constant="10" id="zYh-vQ-LXN"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="qgq-TQ-bUR" id="f66-a5-edm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="138" y="112"/>
         </scene>
     </scenes>
 </document>

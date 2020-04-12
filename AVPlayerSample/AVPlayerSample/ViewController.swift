@@ -9,42 +9,76 @@
 import UIKit
 import AVFoundation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UINavigationControllerDelegate {
 
+    let imagePickerController = UIImagePickerController()
+    var videoURL: URL?
     var player: AVPlayer?
+    var playerLayer: AVPlayerLayer?
 
+    @IBOutlet weak var imageView: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        imagePickerController.sourceType = .photoLibrary
+        imagePickerController.delegate = self
         prepareAVPlayer()
     }
 
 
     func prepareAVPlayer() {
-        guard let url = URL(string: "https://movie-labo.info/sample/whitecat320.mp4") else {
-            return
-        }
-        player = AVPlayer(url: url)
-
-        // 再生する
-        player?.play()
-
         // layer作成
-        let playerLayer = AVPlayerLayer(player: player)
-        playerLayer.frame = view.bounds
+        guard let videoURL = videoURL else {return}
+        player = AVPlayer(url: videoURL)
+        playerLayer = AVPlayerLayer(player: player)
+        playerLayer?.frame = imageView.bounds
         // videoのサイズ
-        playerLayer.videoGravity = .resizeAspect
+        playerLayer?.videoGravity = .resizeAspect
         // layerのZポジション
-        playerLayer.zPosition = -1
-        view.layer.insertSublayer(playerLayer, at: 0)
+        playerLayer?.zPosition = -100
+        imageView.layer.insertSublayer(playerLayer!, at: 0)
     }
 
     @IBAction func restart(_ sender: UIButton) {
+        imageView.layer.sublayers?.removeAll()
+        prepareAVPlayer()
+        // 再生する
+        player?.play()
         // restartする
         player?.seek(to: CMTime.zero)
         player?.play()
     }
 
+    @IBAction func selectMove(_ sender: UIButton) {
+        //動画だけを抽出
+        imagePickerController.mediaTypes = ["public.movie"]
+        present(imagePickerController, animated: true, completion: nil)
+    }
+
+    func previewImageFromVideo(_ url:URL) -> UIImage? {
+        let asset = AVAsset(url:url)
+        let imageGenerator = AVAssetImageGenerator(asset:asset)
+        imageGenerator.appliesPreferredTrackTransform = true
+        var time = asset.duration
+        time.value = min(time.value,2)
+        do {
+            let imageRef = try imageGenerator.copyCGImage(at: time, actualTime: nil)
+            return UIImage(cgImage: imageRef)
+        } catch {
+            return nil
+        }
+    }
+
 }
 
+
+extension ViewController: UIImagePickerControllerDelegate {
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        self.videoURL = info[.mediaURL] as? URL
+        print(videoURL!)
+        imageView.image = previewImageFromVideo(videoURL!)!
+        imageView.contentMode = .scaleAspectFit
+        imagePickerController.dismiss(animated: true, completion: nil)
+    }
+}
