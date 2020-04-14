@@ -18,6 +18,8 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
 
     @IBOutlet weak var imageView: UIImageView!
 
+    @IBOutlet weak var previewView: UIView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -32,16 +34,16 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
         guard let videoURL = videoURL else {return}
         player = AVPlayer(url: videoURL)
         playerLayer = AVPlayerLayer(player: player)
-        playerLayer?.frame = imageView.bounds
+        playerLayer?.frame = previewView.bounds
         // videoのサイズ
         playerLayer?.videoGravity = .resizeAspect
         // layerのZポジション
-        playerLayer?.zPosition = -100
-        imageView.layer.insertSublayer(playerLayer!, at: 0)
+        playerLayer?.zPosition = -1
+        previewView.layer.insertSublayer(playerLayer!, at: 0)
     }
 
     @IBAction func restart(_ sender: UIButton) {
-        imageView.layer.sublayers?.removeAll()
+        previewView.layer.sublayers?.removeAll()
         prepareAVPlayer()
         // 再生する
         player?.play()
@@ -69,7 +71,6 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
             return nil
         }
     }
-
 }
 
 
@@ -77,8 +78,11 @@ extension ViewController: UIImagePickerControllerDelegate {
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         self.videoURL = info[.mediaURL] as? URL
         print(videoURL!)
+        let imageView = UIImageView()
         imageView.image = previewImageFromVideo(videoURL!)!
         imageView.contentMode = .scaleAspectFit
+        imageView.frame = self.previewView.frame
+        self.previewView.layer.addSublayer(imageView.layer)
         imagePickerController.dismiss(animated: true, completion: nil)
     }
 }
