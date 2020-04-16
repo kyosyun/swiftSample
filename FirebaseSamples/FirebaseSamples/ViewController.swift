@@ -33,6 +33,7 @@ class ViewController: UIViewController {
                 }
                 return
             }
+            self.loadValue.text = String(data: data, encoding: .utf8)
         }
     }
 
@@ -64,8 +65,6 @@ class ViewController: UIViewController {
             print(url)
           }
         }
-
-
     }
     @IBAction func saveBtnTapped(_ sender: UIButton) {
 
