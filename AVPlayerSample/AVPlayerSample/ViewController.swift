@@ -33,6 +33,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
         // layer作成
         guard let videoURL = videoURL else {return}
         player = AVPlayer(url: videoURL)
+        player?.volume = 0
         playerLayer = AVPlayerLayer(player: player)
         playerLayer?.frame = previewView.bounds
         // videoのサイズ
