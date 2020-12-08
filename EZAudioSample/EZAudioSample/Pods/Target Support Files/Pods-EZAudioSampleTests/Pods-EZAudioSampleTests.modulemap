@@ -1,0 +1,6 @@
+framework module Pods_EZAudioSampleTests {
+  umbrella header "Pods-EZAudioSampleTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

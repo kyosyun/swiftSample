@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-EZAudioSample/Pods-EZAudioSample-frameworks.sh
+${BUILT_PRODUCTS_DIR}/EZAudio/EZAudio.framework
+${BUILT_PRODUCTS_DIR}/TPCircularBuffer/TPCircularBuffer.framework

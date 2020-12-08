@@ -31,6 +31,11 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
 
     func prepareAVPlayer() {
         // layer作成
+        //guard let videoURL = videoURL else {return}
+        if videoURL == nil {
+            videoURL = UserDefaults.standard.url(forKey: "saveURL")
+            print("videoURL load: \(videoURL)")
+        }
         guard let videoURL = videoURL else {return}
         player = AVPlayer(url: videoURL)
         player?.volume = 0
@@ -77,8 +82,18 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
 
 extension ViewController: UIImagePickerControllerDelegate {
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-        self.videoURL = info[.mediaURL] as? URL
-        print(videoURL!)
+        guard let tmpURL = info[.mediaURL] as? URL else {return}
+        let saveURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!.appendingPathComponent(tmpURL.lastPathComponent)
+        do {
+            try FileManager.default.copyItem(at: tmpURL, to: saveURL)
+        } catch {
+            print("動画の保存に失敗")
+        }
+        
+        print("tmpURL: \(videoURL)")
+        print("saveURL: \(saveURL)")
+        UserDefaults.standard.set(saveURL, forKey: "saveURL")
+        videoURL = saveURL
         let imageView = UIImageView()
         imageView.image = previewImageFromVideo(videoURL!)!
         imageView.contentMode = .scaleAspectFit

@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2379D3CA245D1234005B01F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2379D3C9245D1234005B01F2 /* AppDelegate.swift */; };
+		2379D3CC245D1234005B01F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2379D3CB245D1234005B01F2 /* SceneDelegate.swift */; };
+		2379D3CE245D1234005B01F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2379D3CD245D1234005B01F2 /* ViewController.swift */; };
+		2379D3D1245D1234005B01F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2379D3CF245D1234005B01F2 /* Main.storyboard */; };
+		2379D3D3245D1235005B01F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2379D3D2245D1235005B01F2 /* Assets.xcassets */; };
+		2379D3D6245D1235005B01F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2379D3D4245D1235005B01F2 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2379D3DD245D1235005B01F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2379D3BE245D1234005B01F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2379D3C5245D1234005B01F2;
+			remoteInfo = AVCaptureSessionSample;
+		};
+		2379D3E8245D1235005B01F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2379D3BE245D1234005B01F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2379D3C5245D1234005B01F2;
+			remoteInfo = AVCaptureSessionSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2379D3C6245D1234005B01F2 /* SunproRoomCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunproRoomCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2379D3C9245D1234005B01F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2379D3CB245D1234005B01F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2379D3CD245D1234005B01F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2379D3D0245D1234005B01F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2379D3D2245D1235005B01F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2379D3D5245D1235005B01F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2379D3D7245D1235005B01F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2379D3DC245D1235005B01F2 /* SunProRoomCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunProRoomCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2379D3E7245D1235005B01F2 /* SunProRoomCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunProRoomCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2379D3C3245D1234005B01F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2379D3D9245D1235005B01F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2379D3E4245D1235005B01F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2379D3BD245D1234005B01F2 = {
+			isa = PBXGroup;
+			children = (
+				2379D3C8245D1234005B01F2 /* SunProRoomCamera */,
+				2379D3C7245D1234005B01F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2379D3C7245D1234005B01F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2379D3C6245D1234005B01F2 /* SunproRoomCamera.app */,
+				2379D3DC245D1235005B01F2 /* SunProRoomCameraTests.xctest */,
+				2379D3E7245D1235005B01F2 /* SunProRoomCameraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2379D3C8245D1234005B01F2 /* SunProRoomCamera */ = {
+			isa = PBXGroup;
+			children = (
+				2379D3C9245D1234005B01F2 /* AppDelegate.swift */,
+				2379D3CB245D1234005B01F2 /* SceneDelegate.swift */,
+				2379D3CD245D1234005B01F2 /* ViewController.swift */,
+				2379D3CF245D1234005B01F2 /* Main.storyboard */,
+				2379D3D2245D1235005B01F2 /* Assets.xcassets */,
+				2379D3D4245D1235005B01F2 /* LaunchScreen.storyboard */,
+				2379D3D7245D1235005B01F2 /* Info.plist */,
+			);
+			path = SunProRoomCamera;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2379D3C5245D1234005B01F2 /* SunProRoomCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2379D3F0245D1235005B01F2 /* Build configuration list for PBXNativeTarget "SunProRoomCamera" */;
+			buildPhases = (
+				2379D3C2245D1234005B01F2 /* Sources */,
+				2379D3C3245D1234005B01F2 /* Frameworks */,
+				2379D3C4245D1234005B01F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SunProRoomCamera;
+			productName = AVCaptureSessionSample;
+			productReference = 2379D3C6245D1234005B01F2 /* SunproRoomCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2379D3DB245D1235005B01F2 /* SunProRoomCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2379D3F3245D1235005B01F2 /* Build configuration list for PBXNativeTarget "SunProRoomCameraTests" */;
+			buildPhases = (
+				2379D3D8245D1235005B01F2 /* Sources */,
+				2379D3D9245D1235005B01F2 /* Frameworks */,
+				2379D3DA245D1235005B01F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2379D3DE245D1235005B01F2 /* PBXTargetDependency */,
+			);
+			name = SunProRoomCameraTests;
+			productName = AVCaptureSessionSampleTests;
+			productReference = 2379D3DC245D1235005B01F2 /* SunProRoomCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2379D3E6245D1235005B01F2 /* SunProRoomCameraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2379D3F6245D1235005B01F2 /* Build configuration list for PBXNativeTarget "SunProRoomCameraUITests" */;
+			buildPhases = (
+				2379D3E3245D1235005B01F2 /* Sources */,
+				2379D3E4245D1235005B01F2 /* Frameworks */,
+				2379D3E5245D1235005B01F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2379D3E9245D1235005B01F2 /* PBXTargetDependency */,
+			);
+			name = SunProRoomCameraUITests;
+			productName = AVCaptureSessionSampleUITests;
+			productReference = 2379D3E7245D1235005B01F2 /* SunProRoomCameraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2379D3BE245D1234005B01F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = kyo_s;
+				TargetAttributes = {
+					2379D3C5245D1234005B01F2 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					2379D3DB245D1235005B01F2 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 2379D3C5245D1234005B01F2;
+					};
+					2379D3E6245D1235005B01F2 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 2379D3C5245D1234005B01F2;
+					};
+				};
+			};
+			buildConfigurationList = 2379D3C1245D1234005B01F2 /* Build configuration list for PBXProject "SunProRoomCamera" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2379D3BD245D1234005B01F2;
+			productRefGroup = 2379D3C7245D1234005B01F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2379D3C5245D1234005B01F2 /* SunProRoomCamera */,
+				2379D3DB245D1235005B01F2 /* SunProRoomCameraTests */,
+				2379D3E6245D1235005B01F2 /* SunProRoomCameraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2379D3C4245D1234005B01F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2379D3D6245D1235005B01F2 /* LaunchScreen.storyboard in Resources */,
+				2379D3D3245D1235005B01F2 /* Assets.xcassets in Resources */,
+				2379D3D1245D1234005B01F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2379D3DA245D1235005B01F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2379D3E5245D1235005B01F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2379D3C2245D1234005B01F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2379D3CE245D1234005B01F2 /* ViewController.swift in Sources */,
+				2379D3CA245D1234005B01F2 /* AppDelegate.swift in Sources */,
+				2379D3CC245D1234005B01F2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2379D3D8245D1235005B01F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2379D3E3245D1235005B01F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2379D3DE245D1235005B01F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2379D3C5245D1234005B01F2 /* SunProRoomCamera */;
+			targetProxy = 2379D3DD245D1235005B01F2 /* PBXContainerItemProxy */;
+		};
+		2379D3E9245D1235005B01F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2379D3C5245D1234005B01F2 /* SunProRoomCamera */;
+			targetProxy = 2379D3E8245D1235005B01F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2379D3CF245D1234005B01F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2379D3D0245D1234005B01F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2379D3D4245D1235005B01F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2379D3D5245D1235005B01F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2379D3EE245D1235005B01F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2379D3EF245D1235005B01F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2379D3F1245D1235005B01F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY7CYXCYYS;
+				INFOPLIST_FILE = AVCaptureSessionSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kyo-s.SunproRoomCamera";
+				PRODUCT_NAME = SunproRoomCamera;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2379D3F2245D1235005B01F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY7CYXCYYS;
+				INFOPLIST_FILE = AVCaptureSessionSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kyo-s.SunproRoomCamera";
+				PRODUCT_NAME = SunproRoomCamera;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2379D3F4245D1235005B01F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY7CYXCYYS;
+				INFOPLIST_FILE = AVCaptureSessionSampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kyo-s.AVCaptureSessionSampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunProRoomCamera.app/SunProRoomCamera";
+			};
+			name = Debug;
+		};
+		2379D3F5245D1235005B01F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY7CYXCYYS;
+				INFOPLIST_FILE = AVCaptureSessionSampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kyo-s.AVCaptureSessionSampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunProRoomCamera.app/SunProRoomCamera";
+			};
+			name = Release;
+		};
+		2379D3F7245D1235005B01F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY7CYXCYYS;
+				INFOPLIST_FILE = AVCaptureSessionSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kyo-s.AVCaptureSessionSampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AVCaptureSessionSample;
+			};
+			name = Debug;
+		};
+		2379D3F8245D1235005B01F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY7CYXCYYS;
+				INFOPLIST_FILE = AVCaptureSessionSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kyo-s.AVCaptureSessionSampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AVCaptureSessionSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2379D3C1245D1234005B01F2 /* Build configuration list for PBXProject "SunProRoomCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2379D3EE245D1235005B01F2 /* Debug */,
+				2379D3EF245D1235005B01F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2379D3F0245D1235005B01F2 /* Build configuration list for PBXNativeTarget "SunProRoomCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2379D3F1245D1235005B01F2 /* Debug */,
+				2379D3F2245D1235005B01F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2379D3F3245D1235005B01F2 /* Build configuration list for PBXNativeTarget "SunProRoomCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2379D3F4245D1235005B01F2 /* Debug */,
+				2379D3F5245D1235005B01F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2379D3F6245D1235005B01F2 /* Build configuration list for PBXNativeTarget "SunProRoomCameraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2379D3F7245D1235005B01F2 /* Debug */,
+				2379D3F8245D1235005B01F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2379D3BE245D1234005B01F2 /* Project object */;
+}
