@@ -23,8 +23,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var tapLat: UILabel!
     @IBOutlet weak var address: UITextField!
 
-
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -44,6 +42,9 @@ class ViewController: UIViewController {
         }
 
         initMap()
+        if #available(iOS 13.0, *) {
+            self.overrideUserInterfaceStyle = .light
+        }
     }
 
     // ロングタップの検知

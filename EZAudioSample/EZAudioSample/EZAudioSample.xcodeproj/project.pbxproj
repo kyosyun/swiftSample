@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2280683AC8601570F698EB6D /* Pods_EZAudioSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D571EB5C8F442FC95357D4D /* Pods_EZAudioSampleTests.framework */; };
+		23FBE5F825559D39006A5CC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FBE5F725559D39006A5CC0 /* AppDelegate.swift */; };
+		23FBE5FA25559D39006A5CC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FBE5F925559D39006A5CC0 /* SceneDelegate.swift */; };
+		23FBE5FC25559D39006A5CC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FBE5FB25559D39006A5CC0 /* ViewController.swift */; };
+		23FBE5FF25559D39006A5CC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23FBE5FD25559D39006A5CC0 /* Main.storyboard */; };
+		23FBE60125559D3B006A5CC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23FBE60025559D3B006A5CC0 /* Assets.xcassets */; };
+		23FBE60425559D3B006A5CC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23FBE60225559D3B006A5CC0 /* LaunchScreen.storyboard */; };
+		23FBE60F25559D3B006A5CC0 /* EZAudioSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FBE60E25559D3B006A5CC0 /* EZAudioSampleTests.swift */; };
+		23FBE61A25559D3B006A5CC0 /* EZAudioSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FBE61925559D3B006A5CC0 /* EZAudioSampleUITests.swift */; };
+		23FBE62825559E28006A5CC0 /* Pods_EZAudioSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E1F5ACBB94218B9FDAA6762 /* Pods_EZAudioSample.framework */; };
+		23FBE62925559E28006A5CC0 /* Pods_EZAudioSample.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1E1F5ACBB94218B9FDAA6762 /* Pods_EZAudioSample.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		23FBE62F2555A4BB006A5CC0 /* menuettm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 23FBE62E2555A4BB006A5CC0 /* menuettm.mp3 */; };
+		87754AB26006C7FE5895B65A /* Pods_EZAudioSample_EZAudioSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EC10EF266DBDCEAF9A00AED /* Pods_EZAudioSample_EZAudioSampleUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23FBE60B25559D3B006A5CC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23FBE5EC25559D39006A5CC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23FBE5F325559D39006A5CC0;
+			remoteInfo = EZAudioSample;
+		};
+		23FBE61625559D3B006A5CC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23FBE5EC25559D39006A5CC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23FBE5F325559D39006A5CC0;
+			remoteInfo = EZAudioSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		23FBE62A25559E28006A5CC0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				23FBE62925559E28006A5CC0 /* Pods_EZAudioSample.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1924F7DF18C6B1EFA7FA416C /* Pods-EZAudioSample-EZAudioSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZAudioSample-EZAudioSampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-EZAudioSample-EZAudioSampleUITests/Pods-EZAudioSample-EZAudioSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E1F5ACBB94218B9FDAA6762 /* Pods_EZAudioSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EZAudioSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23FBE5F425559D39006A5CC0 /* EZAudioSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZAudioSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23FBE5F725559D39006A5CC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23FBE5F925559D39006A5CC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		23FBE5FB25559D39006A5CC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		23FBE5FE25559D39006A5CC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23FBE60025559D3B006A5CC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23FBE60325559D3B006A5CC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23FBE60525559D3B006A5CC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23FBE60A25559D3B006A5CC0 /* EZAudioSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EZAudioSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23FBE60E25559D3B006A5CC0 /* EZAudioSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EZAudioSampleTests.swift; sourceTree = "<group>"; };
+		23FBE61025559D3B006A5CC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23FBE61525559D3B006A5CC0 /* EZAudioSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EZAudioSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23FBE61925559D3B006A5CC0 /* EZAudioSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EZAudioSampleUITests.swift; sourceTree = "<group>"; };
+		23FBE61B25559D3B006A5CC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23FBE62725559DD4006A5CC0 /* EAAudioSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EAAudioSample-Bridging-Header.h"; sourceTree = "<group>"; };
+		23FBE62B25559EB0006A5CC0 /* EZAudio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EZAudio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23FBE62E2555A4BB006A5CC0 /* menuettm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = menuettm.mp3; path = ../../../../../Downloads/menuettm.mp3; sourceTree = "<group>"; };
+		3EC10EF266DBDCEAF9A00AED /* Pods_EZAudioSample_EZAudioSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EZAudioSample_EZAudioSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D571EB5C8F442FC95357D4D /* Pods_EZAudioSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EZAudioSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88CC513AE746D740B96A9294 /* Pods-EZAudioSample-EZAudioSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZAudioSample-EZAudioSampleUITests.release.xcconfig"; path = "Target Support Files/Pods-EZAudioSample-EZAudioSampleUITests/Pods-EZAudioSample-EZAudioSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8A23CB5A181ECBF962AA097A /* Pods-EZAudioSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZAudioSampleTests.debug.xcconfig"; path = "Target Support Files/Pods-EZAudioSampleTests/Pods-EZAudioSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1DF4CD7A911BF1ABA05EA52 /* Pods-EZAudioSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZAudioSample.release.xcconfig"; path = "Target Support Files/Pods-EZAudioSample/Pods-EZAudioSample.release.xcconfig"; sourceTree = "<group>"; };
+		B67932000F971817FB501E84 /* Pods-EZAudioSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZAudioSample.debug.xcconfig"; path = "Target Support Files/Pods-EZAudioSample/Pods-EZAudioSample.debug.xcconfig"; sourceTree = "<group>"; };
+		F9AA35B43AEECDEEB461DAF6 /* Pods-EZAudioSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZAudioSampleTests.release.xcconfig"; path = "Target Support Files/Pods-EZAudioSampleTests/Pods-EZAudioSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23FBE5F125559D39006A5CC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23FBE62825559E28006A5CC0 /* Pods_EZAudioSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23FBE60725559D3B006A5CC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2280683AC8601570F698EB6D /* Pods_EZAudioSampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23FBE61225559D3B006A5CC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87754AB26006C7FE5895B65A /* Pods_EZAudioSample_EZAudioSampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23FBE5EB25559D39006A5CC0 = {
+			isa = PBXGroup;
+			children = (
+				23FBE5F625559D39006A5CC0 /* EZAudioSample */,
+				23FBE60D25559D3B006A5CC0 /* EZAudioSampleTests */,
+				23FBE61825559D3B006A5CC0 /* EZAudioSampleUITests */,
+				23FBE5F525559D39006A5CC0 /* Products */,
+				E3DC002C9709B14301C2DDEE /* Pods */,
+				4E08668235AEC1962DDDF1D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		23FBE5F525559D39006A5CC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23FBE5F425559D39006A5CC0 /* EZAudioSample.app */,
+				23FBE60A25559D3B006A5CC0 /* EZAudioSampleTests.xctest */,
+				23FBE61525559D3B006A5CC0 /* EZAudioSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23FBE5F625559D39006A5CC0 /* EZAudioSample */ = {
+			isa = PBXGroup;
+			children = (
+				23FBE62E2555A4BB006A5CC0 /* menuettm.mp3 */,
+				23FBE62725559DD4006A5CC0 /* EAAudioSample-Bridging-Header.h */,
+				23FBE5F725559D39006A5CC0 /* AppDelegate.swift */,
+				23FBE5F925559D39006A5CC0 /* SceneDelegate.swift */,
+				23FBE5FB25559D39006A5CC0 /* ViewController.swift */,
+				23FBE5FD25559D39006A5CC0 /* Main.storyboard */,
+				23FBE60025559D3B006A5CC0 /* Assets.xcassets */,
+				23FBE60225559D3B006A5CC0 /* LaunchScreen.storyboard */,
+				23FBE60525559D3B006A5CC0 /* Info.plist */,
+			);
+			path = EZAudioSample;
+			sourceTree = "<group>";
+		};
+		23FBE60D25559D3B006A5CC0 /* EZAudioSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				23FBE60E25559D3B006A5CC0 /* EZAudioSampleTests.swift */,
+				23FBE61025559D3B006A5CC0 /* Info.plist */,
+			);
+			path = EZAudioSampleTests;
+			sourceTree = "<group>";
+		};
+		23FBE61825559D3B006A5CC0 /* EZAudioSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				23FBE61925559D3B006A5CC0 /* EZAudioSampleUITests.swift */,
+				23FBE61B25559D3B006A5CC0 /* Info.plist */,
+			);
+			path = EZAudioSampleUITests;
+			sourceTree = "<group>";
+		};
+		4E08668235AEC1962DDDF1D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23FBE62B25559EB0006A5CC0 /* EZAudio.framework */,
+				1E1F5ACBB94218B9FDAA6762 /* Pods_EZAudioSample.framework */,
+				3EC10EF266DBDCEAF9A00AED /* Pods_EZAudioSample_EZAudioSampleUITests.framework */,
+				5D571EB5C8F442FC95357D4D /* Pods_EZAudioSampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3DC002C9709B14301C2DDEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B67932000F971817FB501E84 /* Pods-EZAudioSample.debug.xcconfig */,
+				B1DF4CD7A911BF1ABA05EA52 /* Pods-EZAudioSample.release.xcconfig */,
+				1924F7DF18C6B1EFA7FA416C /* Pods-EZAudioSample-EZAudioSampleUITests.debug.xcconfig */,
+				88CC513AE746D740B96A9294 /* Pods-EZAudioSample-EZAudioSampleUITests.release.xcconfig */,
+				8A23CB5A181ECBF962AA097A /* Pods-EZAudioSampleTests.debug.xcconfig */,
+				F9AA35B43AEECDEEB461DAF6 /* Pods-EZAudioSampleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23FBE5F325559D39006A5CC0 /* EZAudioSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23FBE61E25559D3B006A5CC0 /* Build configuration list for PBXNativeTarget "EZAudioSample" */;
+			buildPhases = (
+				A74A00420D8DFB225B38F021 /* [CP] Check Pods Manifest.lock */,
+				23FBE5F025559D39006A5CC0 /* Sources */,
+				23FBE5F125559D39006A5CC0 /* Frameworks */,
+				23FBE5F225559D39006A5CC0 /* Resources */,
+				8E0ECBA90D6B06E99A457EB2 /* [CP] Embed Pods Frameworks */,
+				23FBE62A25559E28006A5CC0 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EZAudioSample;
+			productName = EZAudioSample;
+			productReference = 23FBE5F425559D39006A5CC0 /* EZAudioSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23FBE60925559D3B006A5CC0 /* EZAudioSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23FBE62125559D3B006A5CC0 /* Build configuration list for PBXNativeTarget "EZAudioSampleTests" */;
+			buildPhases = (
+				CDF3EDE54CB95C3E855BA63B /* [CP] Check Pods Manifest.lock */,
+				23FBE60625559D3B006A5CC0 /* Sources */,
+				23FBE60725559D3B006A5CC0 /* Frameworks */,
+				23FBE60825559D3B006A5CC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23FBE60C25559D3B006A5CC0 /* PBXTargetDependency */,
+			);
+			name = EZAudioSampleTests;
+			productName = EZAudioSampleTests;
+			productReference = 23FBE60A25559D3B006A5CC0 /* EZAudioSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23FBE61425559D3B006A5CC0 /* EZAudioSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23FBE62425559D3B006A5CC0 /* Build configuration list for PBXNativeTarget "EZAudioSampleUITests" */;
+			buildPhases = (
+				04DE3A4D48DA81953B2AC628 /* [CP] Check Pods Manifest.lock */,
+				23FBE61125559D3B006A5CC0 /* Sources */,
+				23FBE61225559D3B006A5CC0 /* Frameworks */,
+				23FBE61325559D3B006A5CC0 /* Resources */,
+				7BD65C3D01AED7E023239DF0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23FBE61725559D3B006A5CC0 /* PBXTargetDependency */,
+			);
+			name = EZAudioSampleUITests;
+			productName = EZAudioSampleUITests;
+			productReference = 23FBE61525559D3B006A5CC0 /* EZAudioSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23FBE5EC25559D39006A5CC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = kyo_s;
+				TargetAttributes = {
+					23FBE5F325559D39006A5CC0 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					23FBE60925559D3B006A5CC0 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 23FBE5F325559D39006A5CC0;
+					};
+					23FBE61425559D3B006A5CC0 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 23FBE5F325559D39006A5CC0;
+					};
+				};
+			};
+			buildConfigurationList = 23FBE5EF25559D39006A5CC0 /* Build configuration list for PBXProject "EZAudioSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23FBE5EB25559D39006A5CC0;
+			productRefGroup = 23FBE5F525559D39006A5CC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23FBE5F325559D39006A5CC0 /* EZAudioSample */,
+				23FBE60925559D3B006A5CC0 /* EZAudioSampleTests */,
+				23FBE61425559D3B006A5CC0 /* EZAudioSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23FBE5F225559D39006A5CC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23FBE60425559D3B006A5CC0 /* LaunchScreen.storyboard in Resources */,
+				23FBE62F2555A4BB006A5CC0 /* menuettm.mp3 in Resources */,
+				23FBE60125559D3B006A5CC0 /* Assets.xcassets in Resources */,
+				23FBE5FF25559D39006A5CC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23FBE60825559D3B006A5CC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23FBE61325559D3B006A5CC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04DE3A4D48DA81953B2AC628 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EZAudioSample-EZAudioSampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BD65C3D01AED7E023239DF0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EZAudioSample-EZAudioSampleUITests/Pods-EZAudioSample-EZAudioSampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EZAudioSample-EZAudioSampleUITests/Pods-EZAudioSample-EZAudioSampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EZAudioSample-EZAudioSampleUITests/Pods-EZAudioSample-EZAudioSampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E0ECBA90D6B06E99A457EB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EZAudioSample/Pods-EZAudioSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EZAudioSample/Pods-EZAudioSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EZAudioSample/Pods-EZAudioSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A74A00420D8DFB225B38F021 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EZAudioSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDF3EDE54CB95C3E855BA63B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EZAudioSampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23FBE5F025559D39006A5CC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23FBE5FC25559D39006A5CC0 /* ViewController.swift in Sources */,
+				23FBE5F825559D39006A5CC0 /* AppDelegate.swift in Sources */,
+				23FBE5FA25559D39006A5CC0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23FBE60625559D3B006A5CC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23FBE60F25559D3B006A5CC0 /* EZAudioSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23FBE61125559D3B006A5CC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23FBE61A25559D3B006A5CC0 /* EZAudioSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23FBE60C25559D3B006A5CC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23FBE5F325559D39006A5CC0 /* EZAudioSample */;
+			targetProxy = 23FBE60B25559D3B006A5CC0 /* PBXContainerItemProxy */;
+		};
+		23FBE61725559D3B006A5CC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23FBE5F325559D39006A5CC0 /* EZAudioSample */;
+			targetProxy = 23FBE61625559D3B006A5CC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23FBE5FD25559D39006A5CC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23FBE5FE25559D39006A5CC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23FBE60225559D3B006A5CC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23FBE60325559D3B006A5CC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23FBE61C25559D3B006A5CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT)/EAAudioSample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23FBE61D25559D3B006A5CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT)/EAAudioSample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23FBE61F25559D3B006A5CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B67932000F971817FB501E84 /* Pods-EZAudioSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X85VXFU9Y4;
+				INFOPLIST_FILE = EZAudioSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kyo-s.EZAudioSample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT)/EAAudioSample-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23FBE62025559D3B006A5CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1DF4CD7A911BF1ABA05EA52 /* Pods-EZAudioSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X85VXFU9Y4;
+				INFOPLIST_FILE = EZAudioSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kyo-s.EZAudioSample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT)/EAAudioSample-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		23FBE62225559D3B006A5CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A23CB5A181ECBF962AA097A /* Pods-EZAudioSampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X85VXFU9Y4;
+				INFOPLIST_FILE = EZAudioSampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kyo-s.EZAudioSampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EZAudioSample.app/EZAudioSample";
+			};
+			name = Debug;
+		};
+		23FBE62325559D3B006A5CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9AA35B43AEECDEEB461DAF6 /* Pods-EZAudioSampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X85VXFU9Y4;
+				INFOPLIST_FILE = EZAudioSampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kyo-s.EZAudioSampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EZAudioSample.app/EZAudioSample";
+			};
+			name = Release;
+		};
+		23FBE62525559D3B006A5CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1924F7DF18C6B1EFA7FA416C /* Pods-EZAudioSample-EZAudioSampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X85VXFU9Y4;
+				INFOPLIST_FILE = EZAudioSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kyo-s.EZAudioSampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EZAudioSample;
+			};
+			name = Debug;
+		};
+		23FBE62625559D3B006A5CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88CC513AE746D740B96A9294 /* Pods-EZAudioSample-EZAudioSampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X85VXFU9Y4;
+				INFOPLIST_FILE = EZAudioSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kyo-s.EZAudioSampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EZAudioSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23FBE5EF25559D39006A5CC0 /* Build configuration list for PBXProject "EZAudioSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23FBE61C25559D3B006A5CC0 /* Debug */,
+				23FBE61D25559D3B006A5CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23FBE61E25559D3B006A5CC0 /* Build configuration list for PBXNativeTarget "EZAudioSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23FBE61F25559D3B006A5CC0 /* Debug */,
+				23FBE62025559D3B006A5CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23FBE62125559D3B006A5CC0 /* Build configuration list for PBXNativeTarget "EZAudioSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23FBE62225559D3B006A5CC0 /* Debug */,
+				23FBE62325559D3B006A5CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23FBE62425559D3B006A5CC0 /* Build configuration list for PBXNativeTarget "EZAudioSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23FBE62525559D3B006A5CC0 /* Debug */,
+				23FBE62625559D3B006A5CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23FBE5EC25559D39006A5CC0 /* Project object */;
+}
