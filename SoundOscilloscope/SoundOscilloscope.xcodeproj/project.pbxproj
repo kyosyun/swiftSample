@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2334B1EF25AF7F1D007C8556 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2334B1EE25AF7F1D007C8556 /* AppDelegate.swift */; };
+		2334B1F125AF7F1D007C8556 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2334B1F025AF7F1D007C8556 /* SceneDelegate.swift */; };
+		2334B1F325AF7F1D007C8556 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2334B1F225AF7F1D007C8556 /* ViewController.swift */; };
+		2334B1F625AF7F1D007C8556 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2334B1F425AF7F1D007C8556 /* Main.storyboard */; };
+		2334B1F825AF7F1E007C8556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2334B1F725AF7F1E007C8556 /* Assets.xcassets */; };
+		2334B1FB25AF7F1E007C8556 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2334B1F925AF7F1E007C8556 /* LaunchScreen.storyboard */; };
+		2334B20625AF7F1F007C8556 /* SoundOscilloscopeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2334B20525AF7F1F007C8556 /* SoundOscilloscopeTests.swift */; };
+		2334B21125AF7F1F007C8556 /* SoundOscilloscopeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2334B21025AF7F1F007C8556 /* SoundOscilloscopeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2334B20225AF7F1F007C8556 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2334B1E325AF7F1D007C8556 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2334B1EA25AF7F1D007C8556;
+			remoteInfo = SoundOscilloscope;
+		};
+		2334B20D25AF7F1F007C8556 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2334B1E325AF7F1D007C8556 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2334B1EA25AF7F1D007C8556;
+			remoteInfo = SoundOscilloscope;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2334B1EB25AF7F1D007C8556 /* SoundOscilloscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundOscilloscope.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2334B1EE25AF7F1D007C8556 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2334B1F025AF7F1D007C8556 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2334B1F225AF7F1D007C8556 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2334B1F525AF7F1D007C8556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2334B1F725AF7F1E007C8556 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2334B1FA25AF7F1E007C8556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2334B1FC25AF7F1E007C8556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2334B20125AF7F1F007C8556 /* SoundOscilloscopeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundOscilloscopeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2334B20525AF7F1F007C8556 /* SoundOscilloscopeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundOscilloscopeTests.swift; sourceTree = "<group>"; };
+		2334B20725AF7F1F007C8556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2334B20C25AF7F1F007C8556 /* SoundOscilloscopeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundOscilloscopeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2334B21025AF7F1F007C8556 /* SoundOscilloscopeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundOscilloscopeUITests.swift; sourceTree = "<group>"; };
+		2334B21225AF7F1F007C8556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2334B1E825AF7F1D007C8556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2334B1FE25AF7F1F007C8556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2334B20925AF7F1F007C8556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2334B1E225AF7F1D007C8556 = {
+			isa = PBXGroup;
+			children = (
+				2334B1ED25AF7F1D007C8556 /* SoundOscilloscope */,
+				2334B20425AF7F1F007C8556 /* SoundOscilloscopeTests */,
+				2334B20F25AF7F1F007C8556 /* SoundOscilloscopeUITests */,
+				2334B1EC25AF7F1D007C8556 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2334B1EC25AF7F1D007C8556 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2334B1EB25AF7F1D007C8556 /* SoundOscilloscope.app */,
+				2334B20125AF7F1F007C8556 /* SoundOscilloscopeTests.xctest */,
+				2334B20C25AF7F1F007C8556 /* SoundOscilloscopeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2334B1ED25AF7F1D007C8556 /* SoundOscilloscope */ = {
+			isa = PBXGroup;
+			children = (
+				2334B1EE25AF7F1D007C8556 /* AppDelegate.swift */,
+				2334B1F025AF7F1D007C8556 /* SceneDelegate.swift */,
+				2334B1F225AF7F1D007C8556 /* ViewController.swift */,
+				2334B1F425AF7F1D007C8556 /* Main.storyboard */,
+				2334B1F725AF7F1E007C8556 /* Assets.xcassets */,
+				2334B1F925AF7F1E007C8556 /* LaunchScreen.storyboard */,
+				2334B1FC25AF7F1E007C8556 /* Info.plist */,
+			);
+			path = SoundOscilloscope;
+			sourceTree = "<group>";
+		};
+		2334B20425AF7F1F007C8556 /* SoundOscilloscopeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2334B20525AF7F1F007C8556 /* SoundOscilloscopeTests.swift */,
+				2334B20725AF7F1F007C8556 /* Info.plist */,
+			);
+			path = SoundOscilloscopeTests;
+			sourceTree = "<group>";
+		};
+		2334B20F25AF7F1F007C8556 /* SoundOscilloscopeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2334B21025AF7F1F007C8556 /* SoundOscilloscopeUITests.swift */,
+				2334B21225AF7F1F007C8556 /* Info.plist */,
+			);
+			path = SoundOscilloscopeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2334B1EA25AF7F1D007C8556 /* SoundOscilloscope */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2334B21525AF7F1F007C8556 /* Build configuration list for PBXNativeTarget "SoundOscilloscope" */;
+			buildPhases = (
+				2334B1E725AF7F1D007C8556 /* Sources */,
+				2334B1E825AF7F1D007C8556 /* Frameworks */,
+				2334B1E925AF7F1D007C8556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundOscilloscope;
+			productName = SoundOscilloscope;
+			productReference = 2334B1EB25AF7F1D007C8556 /* SoundOscilloscope.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2334B20025AF7F1F007C8556 /* SoundOscilloscopeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2334B21825AF7F1F007C8556 /* Build configuration list for PBXNativeTarget "SoundOscilloscopeTests" */;
+			buildPhases = (
+				2334B1FD25AF7F1F007C8556 /* Sources */,
+				2334B1FE25AF7F1F007C8556 /* Frameworks */,
+				2334B1FF25AF7F1F007C8556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2334B20325AF7F1F007C8556 /* PBXTargetDependency */,
+			);
+			name = SoundOscilloscopeTests;
+			productName = SoundOscilloscopeTests;
+			productReference = 2334B20125AF7F1F007C8556 /* SoundOscilloscopeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2334B20B25AF7F1F007C8556 /* SoundOscilloscopeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2334B21B25AF7F1F007C8556 /* Build configuration list for PBXNativeTarget "SoundOscilloscopeUITests" */;
+			buildPhases = (
+				2334B20825AF7F1F007C8556 /* Sources */,
+				2334B20925AF7F1F007C8556 /* Frameworks */,
+				2334B20A25AF7F1F007C8556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2334B20E25AF7F1F007C8556 /* PBXTargetDependency */,
+			);
+			name = SoundOscilloscopeUITests;
+			productName = SoundOscilloscopeUITests;
+			productReference = 2334B20C25AF7F1F007C8556 /* SoundOscilloscopeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2334B1E325AF7F1D007C8556 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					2334B1EA25AF7F1D007C8556 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					2334B20025AF7F1F007C8556 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 2334B1EA25AF7F1D007C8556;
+					};
+					2334B20B25AF7F1F007C8556 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 2334B1EA25AF7F1D007C8556;
+					};
+				};
+			};
+			buildConfigurationList = 2334B1E625AF7F1D007C8556 /* Build configuration list for PBXProject "SoundOscilloscope" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2334B1E225AF7F1D007C8556;
+			productRefGroup = 2334B1EC25AF7F1D007C8556 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2334B1EA25AF7F1D007C8556 /* SoundOscilloscope */,
+				2334B20025AF7F1F007C8556 /* SoundOscilloscopeTests */,
+				2334B20B25AF7F1F007C8556 /* SoundOscilloscopeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2334B1E925AF7F1D007C8556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2334B1FB25AF7F1E007C8556 /* LaunchScreen.storyboard in Resources */,
+				2334B1F825AF7F1E007C8556 /* Assets.xcassets in Resources */,
+				2334B1F625AF7F1D007C8556 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2334B1FF25AF7F1F007C8556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2334B20A25AF7F1F007C8556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2334B1E725AF7F1D007C8556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2334B1F325AF7F1D007C8556 /* ViewController.swift in Sources */,
+				2334B1EF25AF7F1D007C8556 /* AppDelegate.swift in Sources */,
+				2334B1F125AF7F1D007C8556 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2334B1FD25AF7F1F007C8556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2334B20625AF7F1F007C8556 /* SoundOscilloscopeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2334B20825AF7F1F007C8556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2334B21125AF7F1F007C8556 /* SoundOscilloscopeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2334B20325AF7F1F007C8556 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2334B1EA25AF7F1D007C8556 /* SoundOscilloscope */;
+			targetProxy = 2334B20225AF7F1F007C8556 /* PBXContainerItemProxy */;
+		};
+		2334B20E25AF7F1F007C8556 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2334B1EA25AF7F1D007C8556 /* SoundOscilloscope */;
+			targetProxy = 2334B20D25AF7F1F007C8556 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2334B1F425AF7F1D007C8556 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2334B1F525AF7F1D007C8556 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2334B1F925AF7F1E007C8556 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2334B1FA25AF7F1E007C8556 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2334B21325AF7F1F007C8556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2334B21425AF7F1F007C8556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2334B21625AF7F1F007C8556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X85VXFU9Y4;
+				INFOPLIST_FILE = SoundOscilloscope/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kyo-s.SoundOscilloscope";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2334B21725AF7F1F007C8556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X85VXFU9Y4;
+				INFOPLIST_FILE = SoundOscilloscope/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kyo-s.SoundOscilloscope";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2334B21925AF7F1F007C8556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X85VXFU9Y4;
+				INFOPLIST_FILE = SoundOscilloscopeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kyo-s.SoundOscilloscopeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundOscilloscope.app/SoundOscilloscope";
+			};
+			name = Debug;
+		};
+		2334B21A25AF7F1F007C8556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X85VXFU9Y4;
+				INFOPLIST_FILE = SoundOscilloscopeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kyo-s.SoundOscilloscopeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundOscilloscope.app/SoundOscilloscope";
+			};
+			name = Release;
+		};
+		2334B21C25AF7F1F007C8556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X85VXFU9Y4;
+				INFOPLIST_FILE = SoundOscilloscopeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kyo-s.SoundOscilloscopeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SoundOscilloscope;
+			};
+			name = Debug;
+		};
+		2334B21D25AF7F1F007C8556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X85VXFU9Y4;
+				INFOPLIST_FILE = SoundOscilloscopeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kyo-s.SoundOscilloscopeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SoundOscilloscope;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2334B1E625AF7F1D007C8556 /* Build configuration list for PBXProject "SoundOscilloscope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2334B21325AF7F1F007C8556 /* Debug */,
+				2334B21425AF7F1F007C8556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2334B21525AF7F1F007C8556 /* Build configuration list for PBXNativeTarget "SoundOscilloscope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2334B21625AF7F1F007C8556 /* Debug */,
+				2334B21725AF7F1F007C8556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2334B21825AF7F1F007C8556 /* Build configuration list for PBXNativeTarget "SoundOscilloscopeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2334B21925AF7F1F007C8556 /* Debug */,
+				2334B21A25AF7F1F007C8556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2334B21B25AF7F1F007C8556 /* Build configuration list for PBXNativeTarget "SoundOscilloscopeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2334B21C25AF7F1F007C8556 /* Debug */,
+				2334B21D25AF7F1F007C8556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2334B1E325AF7F1D007C8556 /* Project object */;
+}
