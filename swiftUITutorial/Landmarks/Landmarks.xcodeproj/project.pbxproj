@@ -14,6 +14,7 @@
 		23B33913257F941600A1AAD7 /* LandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B33912257F941600A1AAD7 /* LandmarksTests.swift */; };
 		23B3391E257F941600A1AAD7 /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B3391D257F941600A1AAD7 /* LandmarksUITests.swift */; };
 		23B7349B257FA45A00837BAB /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B7349A257FA45A00837BAB /* CircleImage.swift */; };
+		23FEB15C26EDDD0100CC5899 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FEB15B26EDDD0100CC5899 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		23B3391D257F941600A1AAD7 /* LandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITests.swift; sourceTree = "<group>"; };
 		23B3391F257F941600A1AAD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23B7349A257FA45A00837BAB /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		23FEB15B26EDDD0100CC5899 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				23B33909257F941600A1AAD7 /* Info.plist */,
 				23B33906257F941600A1AAD7 /* Preview Content */,
 				23B7349A257FA45A00837BAB /* CircleImage.swift */,
+				23FEB15B26EDDD0100CC5899 /* MapView.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23B33903257F941400A1AAD7 /* ContentView.swift in Sources */,
+				23FEB15C26EDDD0100CC5899 /* MapView.swift in Sources */,
 				23B33901257F941400A1AAD7 /* LandmarksApp.swift in Sources */,
 				23B7349B257FA45A00837BAB /* CircleImage.swift in Sources */,
 			);
