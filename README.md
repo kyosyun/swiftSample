@@ -20,7 +20,7 @@
 | QrCodeSample| - AVCaptureMetadataOutputを利用してQRコード読み取る | - QRコードを読み込む<br> - 読み込んだQRコードがURLだった場合はsafariで開く |
 | QRCodeReaderSample | - AVCaptureSession / AVCaptureMetadataOutputObjectsDelegate を利用してQRコードの読み込み| - QRコードを読み込む<br> - 読み込んだQRコードに枠をつける |
 | QRCodeImageReader | - CIQRCodeFeatureを使ったQRコードの読み込み| - ライブラリからの画像を読み込む <br> - 読み込んだ画像の中にQRコードがあれば解析して表示|
-| TODO | - TODO <br>| - Libraryから動画の読み込み |
+| MediaLibrary | - 動画読み込み・AppleMusic読み込み <br>| - Libraryから動画の読み込み |
 | TODO | - TODO <br>| - 弧の描画 |
 | TODO | - TODO <br>| - 文字列の圧縮 |
 | TODO | - TODO <br>| - 文字列からQRコードの生成 |
